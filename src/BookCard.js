@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 
 class BookCard extends Component {
     render() {
-        const {book: {title, pageCount, language, cover, author, expectedPrice}} = this.props;
+        const {book: {title, pageCount, language, cover, followers, expectedPrice}} = this.props;
 
         return (
             <div className='card'>
@@ -13,7 +13,8 @@ class BookCard extends Component {
                         <li className='list-group-item'>Language: {language}</li>
                         <li className='list-group-item'>Page count: {pageCount}</li>
                         <li className='list-group-item'>Price: ${expectedPrice}</li>
-                        <li className='list-group-item'>Author: {author.name}</li>
+                        <li className='list-group-item'>Followers: {followers}</li>
+                        {/* <li className='list-group-item'>Author: {author.name}</li> */}
                     </ul>
                     <button className='btn btn-primary' type='button'>Subscribe</button>
                 </div>
