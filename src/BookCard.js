@@ -1,6 +1,16 @@
 import React, {Component} from 'react';
 
 class BookCard extends Component {
+    renderBadges() {
+        const {book: {followers}} = this.props;
+
+        if (followers >= 20) {
+            return (
+                <span className='badge badge-primary'>Popular</span>
+            )
+        }
+    }
+
     render() {
         const {book: {title, pageCount, language, cover, followers, expectedPrice}} = this.props;
 
@@ -8,7 +18,7 @@ class BookCard extends Component {
             <div className='card'>
                 <img src={cover} className='card-img-top' />
                 <div className='card-body'>
-                    <h2 className='card-title'>{title}</h2>
+                    <h2 className='card-title'>{title} {this.renderBadges()}</h2>
                     <ul className='list-group'>
                         <li className='list-group-item'>Language: {language}</li>
                         <li className='list-group-item'>Page count: {pageCount}</li>
