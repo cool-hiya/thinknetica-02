@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import SubscribeModal from './SubscribeModal';
 
 class BookCard extends Component {
     constructor(props) {
@@ -63,7 +64,7 @@ class BookCard extends Component {
                             {this.renderShowMoreButton(showMoreButton)}
                         </li>
                     </ul>
-                    <button className='btn btn-primary' type='button'>Subscribe</button>
+                    <SubscribeModal />
                 </div>
             </div>
         );
