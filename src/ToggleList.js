@@ -26,7 +26,7 @@ class ToggleList extends Component {
     renderList(elements) {
         return elements.map(({name, id}) => {
             return (
-                <span key={id}>{name}</span>
+                <p key={id}>{name}</p>
             )
         })
     }
@@ -40,10 +40,10 @@ class ToggleList extends Component {
         }
 
         return (
-            <p>
+            <div>
                 {this.renderList(elements)}
                 {this.renderShowMoreButton(showMoreButton)}
-            </p>
+            </div>
         );
     }
 }
