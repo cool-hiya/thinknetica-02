@@ -2,6 +2,10 @@ import React, {Component} from 'react';
 
 class AuthorCard extends Component {
     render() {
+        if (!this.props.author) {
+            return <div>Author is unavailable</div>
+        }
+
         const {author: {name, email, avatar, description}} = this.props;
 
         return (
