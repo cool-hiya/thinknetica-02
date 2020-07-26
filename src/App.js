@@ -1,37 +1,23 @@
 import React, {Component} from 'react';
-import BookCard from './BookCard';
-import AuthorCard from './AuthorCard';
+import Header from './Header';
+import Footer from './Footer';
+import BookList from './BookList';
 
 class App extends Component {
+
+
     render() {
-        const {book} = this.props;
+        const {books} = this.props;
 
         return (
-            <div className='container'>
-                <h1 style={styles.title}>Bookstore</h1>
-                <div className='row'>
-                    <div className='col-lg-4'>
-                        <BookCard book={book} />
-                    </div>
-                    <div className='col-lg-4'>
-                        <BookCard book={book} />
-                    </div>
-                    <div className='col-lg-4'>
-                        <BookCard book={book} />
-                    </div>
-                </div>
-                <div className='row'>
-                    <div className='col-lg-4'>
-                        <AuthorCard author={book.author} />
-                    </div>
-                    <div className='col-lg-4'>
-                        <AuthorCard author={book.author} />
-                    </div>
-                    <div className='col-lg-4'>
-                        <AuthorCard author={book.author} />
-                    </div>
-                </div>
-            </div>
+            <React.Fragment>
+                <Header />
+                <main className='container'>
+                    <h1 style={styles.title}>Bookstore</h1>
+                    <BookList books={books} />
+                </main>
+                <Footer />
+            </React.Fragment>
         );
     }
 }
