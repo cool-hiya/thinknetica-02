@@ -1,10 +1,9 @@
 import React, {Component} from 'react';
-import Header from './Header';
-import Footer from './Footer';
-import BookList from './BookList';
+import Header from '../header/Header';
+import Footer from '../footer/Footer';
+import BookList from '../book-list/BookList';
 
 class App extends Component {
-
 
     render() {
         const {books} = this.props;

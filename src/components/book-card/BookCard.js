@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
-import SubscribeModal from './SubscribeModal';
-import ToggleList from './ToggleList';
+import SubscribeModal from '../subscribe-modal/SubscribeModal';
+import ToggleList from '../toggle-list/ToggleList';
 
 class BookCard extends Component {
 
