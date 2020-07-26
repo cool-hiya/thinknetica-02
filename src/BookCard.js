@@ -13,6 +13,10 @@ class BookCard extends Component {
     }
 
     render() {
+        if (!this.props.book) {
+            return <div>Book is unavailable</div>
+        }
+        
         let {book: {title, pageCount, language, cover, followers, expectedPrice, authors}} = this.props;
 
         return (
