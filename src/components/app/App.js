@@ -3,6 +3,7 @@ import Header from '../header/Header';
 import Footer from '../footer/Footer';
 import BookList from '../book-list/BookList';
 import ContactForm from '../contact-form/ContactForm';
+import MainContainer from '../main-container/MainContainer';
 
 class App extends Component {
 
@@ -12,21 +13,13 @@ class App extends Component {
         return (
             <React.Fragment>
                 <Header />
-                <main className='container'>
-                    <h1 style={styles.title}>Bookstore</h1>
+                <MainContainer>
                     <BookList books={books} />
-                    <ContactForm/>
-                </main>
+                    <ContactForm />
+                </MainContainer>
                 <Footer />
             </React.Fragment>
         );
-    }
-}
-
-const styles = {
-    title: {
-        margin: '30px 0',
-        fontSize: '60px'
     }
 }
 

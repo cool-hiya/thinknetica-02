@@ -30,15 +30,15 @@ class ContactForm extends Component {
 
         return (
             <form className='jumbotron' onSubmit={(e) => this.submitForm(e)}>
-                <div class='form-group'>
+                <div className='form-group'>
                     <label htmlFor='name'>Name</label>
                     <input type='text' className="form-control" id='name' value={name} onChange={(e) => this.setField('name', e)} />
                 </div>
-                <div class='form-group'>
+                <div className='form-group'>
                     <label htmlFor='email'>Email</label>
                     <input type='email' className="form-control" id='email' value={email} onChange={(e) => this.setField('email', e)} />
                 </div>
-                <div class='form-group'>
+                <div className='form-group'>
                     <label htmlFor='question'>Question</label>
                     <textarea className="form-control" id='question' value={question} onChange={(e) => this.setField('question', e)}></textarea>
                 </div>

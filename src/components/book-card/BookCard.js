@@ -1,13 +1,14 @@
 import React, {Component} from 'react';
 import SubscribeModal from '../subscribe-modal/SubscribeModal';
-import ToggleList from '../toggle-list/ToggleList';
+import Authors from '../book-card-authors/BookCardAuthors';
+import Badge from '../badge/Badge';
 
 class BookCard extends Component {
 
     renderBadges(followers) {
         if (followers >= 20) {
             return (
-                <span className='badge badge-primary'>Popular</span>
+                <Badge type='primary'>Popular</Badge>
             )
         }
     }
@@ -16,7 +17,7 @@ class BookCard extends Component {
         if (!this.props.book) {
             return <div>Book is unavailable</div>
         }
-        
+
         let {book: {title, pageCount, language, cover, followers, expectedPrice, authors}} = this.props;
 
         return (
@@ -30,7 +31,7 @@ class BookCard extends Component {
                         <div className='list-group-item'>Price: ${expectedPrice}</div>
                         <div className='list-group-item'>Followers: {followers}</div>
                         <div className='list-group-item'>Authors:
-                            <ToggleList elements={authors} />
+                            <Authors authors={authors} />
                         </div>
                     </div>
                     <SubscribeModal />
