@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import Header from '../header/Header';
 import Footer from '../footer/Footer';
 import BookList from '../book-list/BookList';
+import ContactForm from '../contact-form/ContactForm';
 
 class App extends Component {
 
@@ -14,6 +15,7 @@ class App extends Component {
                 <main className='container'>
                     <h1 style={styles.title}>Bookstore</h1>
                     <BookList books={books} />
+                    <ContactForm/>
                 </main>
                 <Footer />
             </React.Fragment>
