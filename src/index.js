@@ -5,6 +5,7 @@ import books from './data/books.json';
 import user from './data/user.json';
 import AuthContext from './context/AuthContext';
 
+console.log(books);
 ReactDom.render(
     <AuthContext.Provider value={user}>
         <App books={books} />

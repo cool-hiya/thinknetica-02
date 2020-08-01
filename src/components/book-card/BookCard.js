@@ -1,6 +1,6 @@
 import React from 'react';
 import SubscribeModal from '../subscribe-modal';
-import Authors from './authors';
+import Authors from '../book-authors';
 import Badge from '../badge';
 
 const BookCard = (props) => {

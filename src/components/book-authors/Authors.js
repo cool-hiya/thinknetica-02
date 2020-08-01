@@ -1,5 +1,5 @@
 import React from 'react';
-import ToggleList from '../../toggle-list';
+import ToggleList from '../toggle-list';
 
 const Authors = ({authors}) => {
     return (
