@@ -1,9 +1,9 @@
 import React, {Component} from 'react';
-import Header from '../header/Header';
-import Footer from '../footer/Footer';
-import BookList from '../book-list/BookList';
-import ContactForm from '../contact-form/ContactForm';
-import MainContainer from '../main-container/MainContainer';
+import Header from '../header';
+import Footer from '../footer';
+import Catalog from '../catalog';
+import ContactForm from '../contact-form';
+import MainContainer from '../main-container';
 
 class App extends Component {
 
@@ -14,7 +14,7 @@ class App extends Component {
             <React.Fragment>
                 <Header />
                 <MainContainer>
-                    <BookList books={books} />
+                    <Catalog books={books} />
                     <ContactForm />
                 </MainContainer>
                 <Footer />

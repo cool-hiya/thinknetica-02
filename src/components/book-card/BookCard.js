@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
-import SubscribeModal from '../subscribe-modal/SubscribeModal';
-import Authors from '../book-card-authors/BookCardAuthors';
-import Badge from '../badge/Badge';
+import SubscribeModal from '../subscribe-modal';
+import Authors from './authors';
+import Badge from '../badge';
 
 class BookCard extends Component {
 
@@ -18,7 +18,7 @@ class BookCard extends Component {
             return <div>Book is unavailable</div>
         }
 
-        let {book: {title, pageCount, language, cover, followers, expectedPrice, authors}} = this.props;
+        const {book: {title, pageCount, language, cover, followers, expectedPrice, authors}} = this.props;
 
         return (
             <div className='card'>

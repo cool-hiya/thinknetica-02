@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
-import BookCard from '../book-card/BookCard';
+import BookCard from '../book-card';
 
-class BookList extends Component {
+class Catalog extends Component {
     renderBooks() {
         const {books} = this.props;
 
@@ -22,4 +22,4 @@ class BookList extends Component {
     }
 }
 
-export default BookList;
+export default Catalog;

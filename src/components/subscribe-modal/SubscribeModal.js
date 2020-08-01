@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import Modal from '../modal/Modal';
+import Modal from '../modal';
 
 class SubscribeModal extends Component {
 
@@ -11,9 +11,6 @@ class SubscribeModal extends Component {
     }
 
     toggle() {
-        console.log(
-            'here'
-        );
         this.setState({isOpen: !this.state.isOpen})
     }
 

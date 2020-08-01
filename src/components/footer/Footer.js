@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import Copyright from '../copyright/Copyright';
+import Copyright from '../copyright';
 
 class Footer extends Component {
     render() {

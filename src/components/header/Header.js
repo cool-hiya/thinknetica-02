@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
-import UserInfo from '../user-info/UserInfo';
-import Logo from '../logo/Logo';
+import UserInfo from '../user-info';
+import Logo from '../logo';
 
 class Header extends Component {
     render() {
