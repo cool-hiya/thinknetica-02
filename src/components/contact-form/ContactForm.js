@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import Field from '../field';
 
 class ContactForm extends Component {
     constructor(props) {
@@ -18,9 +19,9 @@ class ContactForm extends Component {
         })
     }
 
-    submitForm(e){
+    submitForm(e) {
         e.preventDefault();
-        
+
         const {name, email, question} = this.state;
         console.log({name, email, question});
     }
@@ -30,18 +31,9 @@ class ContactForm extends Component {
 
         return (
             <form className='jumbotron' onSubmit={(e) => this.submitForm(e)}>
-                <div className='form-group'>
-                    <label htmlFor='name'>Name</label>
-                    <input type='text' className="form-control" id='name' value={name} onChange={(e) => this.setField('name', e)} />
-                </div>
-                <div className='form-group'>
-                    <label htmlFor='email'>Email</label>
-                    <input type='email' className="form-control" id='email' value={email} onChange={(e) => this.setField('email', e)} />
-                </div>
-                <div className='form-group'>
-                    <label htmlFor='question'>Question</label>
-                    <textarea className="form-control" id='question' value={question} onChange={(e) => this.setField('question', e)}></textarea>
-                </div>
+                <Field name='name' label='Name' value={name} setValue={(name, e) => this.setField(name, e)} />
+                <Field name='email' label='Email' value={email} setValue={(name, e) => this.setField(name, e)} />
+                <Field name='question' label='Question' type='textarea' value={question} setValue={(name, e) => this.setField(name, e)} />
                 <button type='submit' className='btn btn-primary'>Submit</button>
             </form>
         );
