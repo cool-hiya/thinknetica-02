@@ -31,8 +31,8 @@ class ContactForm extends Component {
 
         return (
             <form className='jumbotron' onSubmit={(e) => this.submitForm(e)}>
-                <Field name='name' label='Name' value={name} setValue={(name, e) => this.setField(name, e)} />
-                <Field name='email' label='Email' value={email} setValue={(name, e) => this.setField(name, e)} />
+                <Field name='name' label='Name' value={name} type='input' setValue={(name, e) => this.setField(name, e)} />
+                <Field name='email' label='Email' value={email} type='input' setValue={(name, e) => this.setField(name, e)} />
                 <Field name='question' label='Question' type='textarea' value={question} setValue={(name, e) => this.setField(name, e)} />
                 <button type='submit' className='btn btn-primary'>Submit</button>
             </form>
