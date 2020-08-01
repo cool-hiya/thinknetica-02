@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function MainContainer({children}) {
+const MainContainer = ({children}) => {
     return (
         <main className='container'>
             <h1 style={styles.title}>Bookstore</h1>
@@ -8,6 +8,8 @@ export default function MainContainer({children}) {
         </main>
     );
 }
+
+export default MainContainer;
 
 const styles = {
     title: {

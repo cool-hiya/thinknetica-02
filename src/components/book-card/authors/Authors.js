@@ -1,8 +1,10 @@
 import React from 'react';
 import ToggleList from '../../toggle-list';
 
-export default function Authors({authors}) {
+const Authors = ({authors}) => {
     return (
         <ToggleList elements={authors} />
     );
 }
+
+export default Authors;

@@ -1,7 +1,6 @@
 import React from 'react';
 
-export default function Field(props) {
-    const {name, setValue, label, type, value} = props;
+const Field = ({name, setValue, label, type, value}) => {
 
     const renderField = () => {
         if (type === 'textarea') {
@@ -18,3 +17,5 @@ export default function Field(props) {
         </div>
     );
 }
+
+export default Field;

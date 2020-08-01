@@ -1,25 +1,22 @@
-import React, {Component} from 'react';
+import React from 'react';
 import BookCard from '../book-card';
 
-class Catalog extends Component {
-    renderBooks() {
-        const {books} = this.props;
+const Catalog = ({books}) => {
 
+    const renderBooks = () => {
         return books.map(book => {
             return (
-            <div className='col-lg-4' key={book.id}>
-                <BookCard book={book} />
-            </div>)
+                <div className='col-lg-4' key={book.id}>
+                    <BookCard book={book} />
+                </div>)
         });
     }
 
-    render() {
-        return (
-            <div className='row'>
-                {this.renderBooks()}
-            </div>
-        );
-    }
+    return (
+        <div className='row'>
+            {renderBooks()}
+        </div>
+    );
 }
 
 export default Catalog;
