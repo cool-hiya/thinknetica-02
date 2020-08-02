@@ -1,11 +1,12 @@
 import React, {Component} from 'react';
+import Copyright from '../copyright';
 
 class Footer extends Component {
     render() {
         return (
             <footer className='navbar navbar-light bg-light'>
                 <div className='container'>
-                <p>&copy; Arina Busygina</p>
+                    <Copyright/>
                 </div>
             </footer>
         );
