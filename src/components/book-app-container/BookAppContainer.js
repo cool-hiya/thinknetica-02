@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import Catalog from '../catalog';
 import axios from 'axios';
+import SearchForm from '../search-form';
 
 const API_TOKEN = 'key1mTtH9w21weLOE';
 
@@ -25,14 +26,21 @@ class BookAppContainer extends Component {
         this._fetchData();
     }
 
+    search(query) {
+        console.log(query);
+    }
+
     render() {
         const {books} = this.state;
 
 
         return (
-            books ?
-                <Catalog books={books} />
-                : <p>Loading...</p>
+            <React.Fragment>
+                <SearchForm onSubmit={(q) => this.search(q)} />
+                {books ?
+                    <Catalog books={books} />
+                    : <p>Loading...</p>}
+            </React.Fragment>
         );
     }
 
