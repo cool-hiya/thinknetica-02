@@ -10,7 +10,7 @@ class SearchForm extends React.Component {
 
     onSubmit(e) {
         e.preventDefault();
-        this.props.onSubmit(this.searchInput.current.value);
+        this.props.onSubmit(this.searchInput.current.value.toLowerCase());
     }
 
     render() {

@@ -20,7 +20,8 @@ class BookAppContainer extends Component {
 
         this.state = {
             books: null,
-            selectedBook: null
+            selectedBook: null,
+            searchQuery: ''
         }
     }
 
@@ -28,12 +29,27 @@ class BookAppContainer extends Component {
         this._fetchData();
     }
 
-    selectBook(book) {
-        this.setState({...this.state, selectedBook: book});
+    componentDidUpdate() {
+        const {books, searchQuery} = this.state;
+
+        if (!books) {
+            this._fetchData(searchQuery);
+        }
     }
 
-    search(query) {
-        console.log(query);
+    selectBook(book) {
+        this.setState({
+            ...this.state,
+            selectedBook: book
+        });
+    }
+
+    search(searchQuery) {
+        this.setState({
+            books: null,
+            selectBook: null,
+            searchQuery
+        })
     }
 
     renderBookDetails() {
@@ -43,34 +59,45 @@ class BookAppContainer extends Component {
             return <BookDetails book={selectedBook} />
         }
 
-        return <p className='alert alert-primary'>Selected a book</p>
+        return;
     }
 
     render() {
         const {books} = this.state;
 
-
         return (
             <React.Fragment>
                 <SearchForm onSubmit={(q) => this.search(q)} />
-                <div className='row'>
-                    <div className='col-lg-12'>
-                        {this.renderBookDetails()}
-                    </div>
-                </div>
+
                 {books ?
-                    <Catalog books={books} onSelect={(book) => this.selectBook(book)} />
+                    <div>
+                        <div className='row'>
+                            <div className='col-lg-12'>
+                                {this.renderBookDetails()}
+                            </div>
+                        </div>
+                        <Catalog books={books} onSelect={(book) => this.selectBook(book)} />
+                    </div>
                     : <p>Loading...</p>}
             </React.Fragment>
         );
     }
 
-    _fetchData() {
-        axios.all([httpClient.get('/Books'), httpClient.get('/Authors')])
+    _fetchData(searchQuery) {
+
+        axios.all([
+            httpClient.get('/Books', {
+                params: {
+                    filterByFormula: searchQuery && `SEARCH('${searchQuery}',LOWER({title}))`
+                }
+            }),
+            httpClient.get('/Authors')
+        ])
             .then(axios.spread((booksData, authorsData) => this._mapFromAirTable(booksData.data.records, authorsData.data.records)))
             .then(books => this.setState({...this.state, books}))
             .catch(errors => {
                 console.error(errors);
+                this.setState({...this.state, books: null});
             })
     }
 
