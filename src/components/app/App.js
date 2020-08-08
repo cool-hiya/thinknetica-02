@@ -4,7 +4,6 @@ import Footer from '../footer';
 import Catalog from '../catalog';
 import ContactForm from '../contact-form';
 import MainContainer from '../main-container';
-import Recommended from '../recommended';
 
 const App = ({books}) => {
     return (
@@ -12,7 +11,6 @@ const App = ({books}) => {
             <Header />
             <MainContainer>
                 <Catalog books={books} />
-                <Recommended books={books}/>
                 <ContactForm />
             </MainContainer>
             <Footer />
