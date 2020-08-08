@@ -1,55 +1,22 @@
-import React, {Component} from 'react';
+import React from 'react';
 import BookCard from '../book-card';
-import BookDetails from '../book-details';
 
-class Catalog extends Component {
-    constructor(props) {
-        super(props);
+const Catalog = ({books, onSelect}) => {
 
-        this.state = {
-            selectedBook: null
-        }
-    }
-
-    selectBook(book) {
-        this.setState({selectedBook: book});
-    }
-
-    renderBooks() {
-        const {books} = this.props;
-
+    const renderBooks = () => {
         return books.map(book => {
             return (
                 <div className='col-lg-4' key={book.id}>
-                    <BookCard book={book} onSelect={() => this.selectBook(book)} />
+                    <BookCard book={book} onSelect={() => onSelect(book)} />
                 </div>)
         });
     }
 
-    renderBookDetails() {
-        const {selectedBook} = this.state;
-
-        if (selectedBook) {
-            return <BookDetails book={selectedBook} />
-        }
-
-        return <p className='alert alert-primary'>Selected a book</p>
-    }
-
-    render() {
-        return (
-            <React.Fragment>
-                <div className='row'>
-                    <div className='col-lg-12'>
-                        {this.renderBookDetails()}
-                    </div>
-                </div>
-                <div className='row'>
-                    {this.renderBooks()}
-                </div>
-            </React.Fragment>
-        );
-    }
+    return (
+        <div className='row'>
+            {renderBooks()}
+        </div>
+    );
 }
 
 export default Catalog;

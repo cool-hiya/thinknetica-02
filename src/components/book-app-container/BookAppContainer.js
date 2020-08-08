@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import Catalog from '../catalog';
 import axios from 'axios';
 import SearchForm from '../search-form';
+import BookDetails from '../book-details';
 
 const API_TOKEN = 'key1mTtH9w21weLOE';
 
@@ -18,7 +19,8 @@ class BookAppContainer extends Component {
         super(props);
 
         this.state = {
-            books: null
+            books: null,
+            selectedBook: null
         }
     }
 
@@ -26,8 +28,22 @@ class BookAppContainer extends Component {
         this._fetchData();
     }
 
+    selectBook(book) {
+        this.setState({...this.state, selectedBook: book});
+    }
+
     search(query) {
         console.log(query);
+    }
+
+    renderBookDetails() {
+        const {selectedBook} = this.state;
+
+        if (selectedBook) {
+            return <BookDetails book={selectedBook} />
+        }
+
+        return <p className='alert alert-primary'>Selected a book</p>
     }
 
     render() {
@@ -37,8 +53,13 @@ class BookAppContainer extends Component {
         return (
             <React.Fragment>
                 <SearchForm onSubmit={(q) => this.search(q)} />
+                <div className='row'>
+                    <div className='col-lg-12'>
+                        {this.renderBookDetails()}
+                    </div>
+                </div>
                 {books ?
-                    <Catalog books={books} />
+                    <Catalog books={books} onSelect={(book) => this.selectBook(book)} />
                     : <p>Loading...</p>}
             </React.Fragment>
         );
@@ -47,7 +68,7 @@ class BookAppContainer extends Component {
     _fetchData() {
         axios.all([httpClient.get('/Books'), httpClient.get('/Authors')])
             .then(axios.spread((booksData, authorsData) => this._mapFromAirTable(booksData.data.records, authorsData.data.records)))
-            .then(books => this.setState({books}))
+            .then(books => this.setState({...this.state, books}))
             .catch(errors => {
                 console.error(errors);
             })
