@@ -1,7 +1,9 @@
 import React from 'react';
 
-export default function Copyright() {
+const Copyright = () => {
     return (
         <p>&copy; Arina Busygina</p>
     );
 }
+
+export default Copyright;

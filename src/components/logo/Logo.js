@@ -1,7 +1,9 @@
 import React from 'react';
 
-export default function Logo() {
+const Logo = () => {
     return (
         <a className='navbar-brand' href='#'>Logo</a>
     );
 }
+
+export default Logo;
