@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from '../header';
 import Footer from '../footer';
-import Catalog from '../catalog';
+import BookAppContainer from '../book-app-container';
 import ContactForm from '../contact-form';
 import MainContainer from '../main-container';
 
@@ -10,7 +10,7 @@ const App = ({books}) => {
         <React.Fragment>
             <Header />
             <MainContainer>
-                <Catalog books={books} />
+                <BookAppContainer />
                 <ContactForm />
             </MainContainer>
             <Footer />

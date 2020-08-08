@@ -9,7 +9,7 @@ const BookDetails = ({book}) => {
     const {title, pageCount, language, cover, followers, expectedPrice, authors} = book;
 
     return (
-        <div class='jumbotron'>
+        <div className='jumbotron'>
             <div className='row'>
                 <div className='col-lg-5'>
                     <img src={cover} className='card-img-top' />
@@ -28,7 +28,7 @@ const BookDetails = ({book}) => {
                     <SubscribeModal />
                 </div>
             </div>
-            <div class='row'>
+            <div className='row'>
                 <Recommended books={books} />
             </div>
         </div>

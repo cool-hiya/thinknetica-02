@@ -12,7 +12,6 @@ class Catalog extends Component {
     }
 
     selectBook(book) {
-        console.log(book);
         this.setState({selectedBook: book});
     }
 
