@@ -1,3 +1,4 @@
 import withLoading from './withLoading';
+import withBooks from './withBooks';
 
-export {withLoading}
+export {withBooks, withLoading}
