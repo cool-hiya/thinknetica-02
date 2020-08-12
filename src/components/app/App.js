@@ -1,18 +1,16 @@
 import React from 'react';
 import Header from '../header';
 import Footer from '../footer';
-import Catalog from '../catalog';
+import BookAppContainer from '../book-app-container';
 import ContactForm from '../contact-form';
 import MainContainer from '../main-container';
-import Recommended from '../recommended';
 
-const App = ({books}) => {
+const App = () => {
     return (
         <React.Fragment>
             <Header />
             <MainContainer>
-                <Catalog books={books} />
-                <Recommended books={books}/>
+                <BookAppContainer />
                 <ContactForm />
             </MainContainer>
             <Footer />
