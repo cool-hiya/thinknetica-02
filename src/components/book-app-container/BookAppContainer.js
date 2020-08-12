@@ -47,7 +47,7 @@ class BookAppContainer extends Component {
     search(searchQuery) {
         this.setState({
             books: null,
-            selectBook: null,
+            selectedBook: null,
             searchQuery
         })
     }
@@ -68,17 +68,14 @@ class BookAppContainer extends Component {
         return (
             <React.Fragment>
                 <SearchForm onSubmit={(q) => this.search(q)} />
-
-                {books ?
-                    <div>
-                        <div className='row'>
-                            <div className='col-lg-12'>
-                                {this.renderBookDetails()}
-                            </div>
-                        </div>
-                        <Catalog books={books} onSelect={(book) => this.selectBook(book)} />
+               
+                <div className='row'>
+                    <div className='col-lg-12'>
+                        {this.renderBookDetails()}
                     </div>
-                    : <p>Loading...</p>}
+                </div>
+                <Catalog isLoading={!books} books={books} onSelect={(book) => this.selectBook(book)} />
+               
             </React.Fragment>
         );
     }
