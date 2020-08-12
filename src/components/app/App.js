@@ -5,7 +5,7 @@ import BookAppContainer from '../book-app-container';
 import ContactForm from '../contact-form';
 import MainContainer from '../main-container';
 
-const App = ({books}) => {
+const App = () => {
     return (
         <React.Fragment>
             <Header />
