@@ -1,62 +1,44 @@
-import React, {Component} from 'react';
+import React, {useState} from 'react';
 import Catalog from '../catalog';
 import SearchForm from '../search-form';
 import BookDetails from '../book-details';
+import {useBooks} from '../../hooks';
 
+const BookAppContainer = () => {
+    const [searchQuery, setSearchQuery] = useState('');
+    const [selectedBook, setSelectedBook] = useState(null)
+    const books = useBooks(searchQuery);
 
-class BookAppContainer extends Component {
-    constructor(props) {
-        super(props);
-
-        this.state = {
-            selectedBook: null,
-            searchQuery: ''
-        }
+    function selectBook(book) {
+        setSelectedBook(book);
     }
 
-    selectBook(book) {
-        this.setState({
-            ...this.state,
-            selectedBook: book
-        });
+    function search(searchQuery) {
+        setSelectedBook(null);
+        setSearchQuery(searchQuery);
     }
 
-    search(searchQuery) {
-        this.setState({
-            selectedBook: null,
-            searchQuery
-        })
-    }
-
-    renderBookDetails() {
-        const {selectedBook} = this.state;
-
+    function renderBookDetails() {
         if (selectedBook) {
             return <BookDetails book={selectedBook} />
         }
-
         return;
     }
 
-    render() {
-        const {books, searchQuery} = this.state;
+    return (
+        <React.Fragment>
+            <SearchForm onSubmit={search} />
 
-        return (
-            <React.Fragment>
-                <SearchForm onSubmit={(q) => this.search(q)} />
-
-                <div className='row'>
-                    <div className='col-lg-12'>
-                        {this.renderBookDetails()}
-                    </div>
+            <div className='row'>
+                <div className='col-lg-12'>
+                    {renderBookDetails()}
                 </div>
-                
-                <Catalog searchQuery={searchQuery} isLoading={!books} books={books} onSelect={(book) => this.selectBook(book)} />
+            </div>
 
-            </React.Fragment>
-        );
-    }
+            <Catalog isLoading={!books} books={books} onSelect={selectBook} />
 
+        </React.Fragment>
+    );
 }
 
 export default BookAppContainer;

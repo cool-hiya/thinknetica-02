@@ -1,6 +1,6 @@
 import React from 'react';
 import BookCard from '../book-card';
-import {withLoading, withBooks} from '../../HOC';
+import {withLoading} from '../../HOC';
 
 const Catalog = ({books, onSelect}) => {
 
@@ -20,4 +20,4 @@ const Catalog = ({books, onSelect}) => {
     );
 }
 
-export default withBooks(withLoading(Catalog));
+export default withLoading(Catalog);

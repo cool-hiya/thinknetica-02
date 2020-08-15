@@ -11,7 +11,7 @@ const httpClient = axios.create({
 });
 
 const withBooks = (Component) => {
-    return class extends React.Component {
+    return class WithBooks extends React.Component {
         constructor(props) {
             super(props);
 
