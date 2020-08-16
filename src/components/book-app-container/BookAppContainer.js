@@ -9,20 +9,9 @@ const BookAppContainer = () => {
     const [selectedBook, setSelectedBook] = useState(null)
     const books = useBooks(searchQuery);
 
-    function selectBook(book) {
-        setSelectedBook(book);
-    }
-
     function search(searchQuery) {
         setSelectedBook(null);
         setSearchQuery(searchQuery);
-    }
-
-    function renderBookDetails() {
-        if (selectedBook) {
-            return <BookDetails book={selectedBook} />
-        }
-        return;
     }
 
     return (
@@ -31,11 +20,11 @@ const BookAppContainer = () => {
 
             <div className='row'>
                 <div className='col-lg-12'>
-                    {renderBookDetails()}
+                    {selectedBook ? <BookDetails book={selectedBook} /> : null}
                 </div>
             </div>
 
-            <Catalog isLoading={!books} books={books} onSelect={selectBook} />
+            <Catalog isLoading={!books} books={books} onSelect={(book) => setSelectedBook(book)} />
 
         </React.Fragment>
     );
