@@ -1,3 +1,16 @@
+.scrollup {
+  padding: 15px;
+  border: 1px solid gray;
+  position: fixed;
+  bottom: 50px;
+  right: 80px;
+  z-index: 1000;
+  cursor: pointer;
+  display: none; }
+
+.scrollup.active {
+  display: block; }
+
 html {
   scroll-behavior: smooth; }
 
