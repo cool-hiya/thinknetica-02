@@ -24,7 +24,7 @@ const BookAppContainer = () => {
                 </div>
             </div>
 
-            <Catalog isLoading={!books} books={books} onSelect={(book) => setSelectedBook(book)} />
+            <Catalog isLoading={!books} books={books} onSelect={setSelectedBook} />
 
         </React.Fragment>
     );
