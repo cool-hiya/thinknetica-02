@@ -1,21 +1,18 @@
 import React from 'react';
 import ScrollUpButton from '../scroll-up-button';
+import styles from './main-container.module.scss';
+import {bemNamesFactory} from 'bem-names';
 
+const bem = bemNamesFactory('main-container');
 const MainContainer = ({children}) => {
     return (
-        <main className='container'>
-            <h1 style={styles.title}>Bookstore</h1>
-            {children}
-            <ScrollUpButton/>
+        <main className={styles[bem()]}>
+            <div className={styles[bem('container')]}>
+                {children}
+            </div>
+            <ScrollUpButton />
         </main>
     );
 }
 
 export default MainContainer;
-
-const styles = {
-    title: {
-        margin: '30px 0',
-        fontSize: '60px'
-    }
-}

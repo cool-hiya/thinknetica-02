@@ -1,0 +1,8 @@
+@import "@styles/mixins.scss";
+
+.main-container {
+    &__container {
+        @include centerer();
+        padding: 35px;
+    }
+}

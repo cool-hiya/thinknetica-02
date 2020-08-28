@@ -1,10 +1,14 @@
 import React from 'react';
 import Copyright from '../copyright';
-
+import styles from './footer.modules.scss';
+import { bemNamesFactory } from 'bem-names';
+ 
+const bem = bemNamesFactory('footer');
+ 
 const Footer = () => {
     return (
-        <footer className='navbar navbar-light bg-light'>
-            <div className='container'>
+        <footer className={styles[bem()]}>
+            <div className={styles[bem('container')]}>
                 <Copyright />
             </div>
         </footer>

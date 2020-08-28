@@ -1,0 +1,17 @@
+@import "@styles/mixins.scss";
+
+.header {
+    background-color: var(--bg-default-color);
+    overflow: hidden;
+    position: sticky;
+    top: 0;
+    box-shadow: 0 0 3px 0px var(--shadow-default-color);
+
+    &__container {
+        @include centerer();
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 60px;
+    }
+}

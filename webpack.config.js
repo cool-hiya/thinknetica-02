@@ -22,6 +22,11 @@ module.exports = {
     },
     resolve: {
         extensions: ['.js'],
+        alias: {
+            '@styles': path.resolve(__dirname, 'src/styles/'),
+            '@images': path.resolve(__dirname, 'src/images/')
+        }
+
     },
     module: {
         rules: [
@@ -42,7 +47,8 @@ module.exports = {
                     {
                         loader: 'css-loader',
                         options: {
-                            importLoaders: 1
+                            importLoaders: 1,
+                            modules: true
                         }
                     },
                     {
@@ -54,6 +60,33 @@ module.exports = {
                         }
                     },
                     'sass-loader'
+                ],
+            },
+            {
+                test: /\.(png|jpe?g|svg)$/i,
+                use: [
+                    {
+                        loader: 'file-loader',
+                        options: {
+                            outputPath: './images'
+                        }
+                    },
+                    {
+                        loader: 'image-webpack-loader',
+                        options: {
+                            mozjpeg: {
+                                progressive: true,
+                                quality: 65
+                            },
+                            optipng: {
+                                enabled: false,
+                            },
+                            pngquant: {
+                                quality: [0.65, 0.90],
+                                speed: 4
+                            }
+                        }
+                    },
                 ],
             }
         ]
