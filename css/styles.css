@@ -36,7 +36,8 @@
   display: block; }
 
 :root {
-  --text-color: rgb(56, 56, 56); }
+  --text-color: rgb(56, 56, 56);
+  --bg-primary-color: rgb(173, 173, 173); }
 
 html {
   scroll-behavior: smooth; }
