@@ -14,7 +14,9 @@
   .jZ6Ids6MIBRrGnt9s66RZ {
     background-color: var(--bg-default-color);
     height: 100%;
-    padding: 0 30px; }
+    padding: 0 30px;
+    display: flex;
+    align-items: center; }
 
 ._1JM8lw4HPZeTokOUVim0xz {
   position: fixed;
