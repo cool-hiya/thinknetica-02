@@ -4727,7 +4727,18 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _Foo
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"../node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _user_info__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../user-info */ \"./components/user-info/index.js\");\n/* harmony import */ var _logo__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../logo */ \"./components/logo/index.js\");\n\n\n\n\nvar Header = function Header() {\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"header\", {\n    className: \"navbar navbar-light bg-light\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n    className: \"container\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_logo__WEBPACK_IMPORTED_MODULE_2__[\"default\"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_user_info__WEBPACK_IMPORTED_MODULE_1__[\"default\"], null)));\n};\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (Header);\n\n//# sourceURL=webpack:///./components/header/Header.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"../node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _user_info__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../user-info */ \"./components/user-info/index.js\");\n/* harmony import */ var _logo__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../logo */ \"./components/logo/index.js\");\n/* harmony import */ var _header_module_scss__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./header.module.scss */ \"./components/header/header.module.scss\");\n/* harmony import */ var _header_module_scss__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_header_module_scss__WEBPACK_IMPORTED_MODULE_3__);\n\n\n\n\n\nvar Header = function Header() {\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"header\", {\n    className: _header_module_scss__WEBPACK_IMPORTED_MODULE_3___default.a.header\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n    className: \"container\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_logo__WEBPACK_IMPORTED_MODULE_2__[\"default\"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_user_info__WEBPACK_IMPORTED_MODULE_1__[\"default\"], null)));\n};\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (Header);\n\n//# sourceURL=webpack:///./components/header/Header.js?");
+
+/***/ }),
+
+/***/ "./components/header/header.module.scss":
+/*!**********************************************!*\
+  !*** ./components/header/header.module.scss ***!
+  \**********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("// extracted by mini-css-extract-plugin\nmodule.exports = {\"header\":\"IUx2kx-g6cZmXhLmh5U5G\"};\n\n//# sourceURL=webpack:///./components/header/header.module.scss?");
 
 /***/ }),
 
@@ -4822,7 +4833,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _Mod
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=webpack:///./components/modal/modal.scss?");
+eval("// extracted by mini-css-extract-plugin\nmodule.exports = {\"modal-overlay\":\"_1JM8lw4HPZeTokOUVim0xz\",\"modal-content\":\"_2Cu4AY_pi_gS9lR_PfS8PS\"};\n\n//# sourceURL=webpack:///./components/modal/modal.scss?");
 
 /***/ }),
 
@@ -4905,7 +4916,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _Scr
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=webpack:///./components/scroll-up-button/scroll-up-button.scss?");
+eval("// extracted by mini-css-extract-plugin\nmodule.exports = {\"scrollup\":\"_310y_SDDm9tck7WmmHxJ8G\",\"active\":\"_2N7byiKL05OKIOREPByHV7\"};\n\n//# sourceURL=webpack:///./components/scroll-up-button/scroll-up-button.scss?");
 
 /***/ }),
 

@@ -1,4 +1,7 @@
-.modal-overlay {
+.IUx2kx-g6cZmXhLmh5U5G {
+  background-color: red; }
+
+._1JM8lw4HPZeTokOUVim0xz {
   position: fixed;
   background-color: rgba(0, 0, 0, 0.5);
   top: 0;
@@ -9,13 +12,13 @@
   align-items: center;
   justify-content: center; }
 
-.modal-content {
+._2Cu4AY_pi_gS9lR_PfS8PS {
   background-color: white;
   width: 300px;
   padding: 30px;
   position: relative; }
 
-.scrollup {
+._310y_SDDm9tck7WmmHxJ8G {
   padding: 15px;
   border: 1px solid gray;
   position: fixed;
@@ -25,7 +28,7 @@
   cursor: pointer;
   display: none; }
 
-.scrollup.active {
+._310y_SDDm9tck7WmmHxJ8G._2N7byiKL05OKIOREPByHV7 {
   display: block; }
 
 html {
