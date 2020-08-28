@@ -22,7 +22,7 @@
   position: -webkit-sticky;
   position: sticky;
   top: 0;
-  box-shadow: 0 0 0 1px red; }
+  box-shadow: 0 0 3px 0 var(--bg-primary-color); }
   ._3HUpDHr0d65fi1u8RQiLRv {
     margin: 0 auto;
     max-width: 1200px;
