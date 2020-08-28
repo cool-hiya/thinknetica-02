@@ -1,12 +1,12 @@
 .IUx2kx-g6cZmXhLmh5U5G {
-  background-color: var(--bg-primary-color);
-  height: 60px; }
+  background-color: var(--bg-primary-color); }
   ._3HUpDHr0d65fi1u8RQiLRv {
     margin: 0 auto;
     max-width: 1200px;
     display: flex;
     align-items: center;
-    justify-content: space-between; }
+    justify-content: space-between;
+    height: 60px; }
 
 ._1JM8lw4HPZeTokOUVim0xz {
   position: fixed;
