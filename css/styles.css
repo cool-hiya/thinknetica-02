@@ -18,7 +18,10 @@
 
 .IUx2kx-g6cZmXhLmh5U5G {
   background-color: var(--bg-primary-color);
-  overflow: hidden; }
+  overflow: hidden;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0; }
   ._3HUpDHr0d65fi1u8RQiLRv {
     margin: 0 auto;
     max-width: 1200px;
