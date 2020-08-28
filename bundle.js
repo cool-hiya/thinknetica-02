@@ -5045,7 +5045,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _Use
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=webpack:///./components/user-info/user-info.scss?");
+eval("// extracted by mini-css-extract-plugin\nmodule.exports = {\"user-info__avatar\":\"_2Xqd-53KwGtZT9qUftnQBj\"};\n\n//# sourceURL=webpack:///./components/user-info/user-info.scss?");
 
 /***/ }),
 
