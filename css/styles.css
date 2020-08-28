@@ -35,3 +35,15 @@
 ._310y_SDDm9tck7WmmHxJ8G._2N7byiKL05OKIOREPByHV7 {
   display: block; }
 
+:root {
+  --text-color: rgb(47, 47, 47); }
+
+html {
+  scroll-behavior: smooth; }
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  color: var(--text-color); }
+
