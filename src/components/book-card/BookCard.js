@@ -2,20 +2,15 @@ import React from 'react';
 import SubscribeModal from '../subscribe-modal';
 import Authors from '../book-authors';
 import Badge from '../badge';
+import Title from './title';
+import List from './list';
 
 const BookCard = (props) => {
-
-    const renderBadges = (followers) => {
-        if (followers >= 20) {
-            return (
-                <Badge type='primary'>Popular</Badge>
-            )
-        }
-    }
-
     if (!props.book) {
         return <div>Book is unavailable</div>
     }
+
+    const isPopular = props.book.followers >= 20;
 
     const {book: {title, pageCount, language, cover, followers, expectedPrice, authors}, onSelect} = props;
 
@@ -23,16 +18,17 @@ const BookCard = (props) => {
         <div className='card'>
             <img src={cover} className='card-img-top' />
             <div className='card-body'>
-                <h2 className='card-title'><span onClick={() => onSelect()}> {title}</span> {renderBadges(followers)}</h2>
-                <div className='list-group'>
-                    <div className='list-group-item'>Language: {language}</div>
-                    <div className='list-group-item'>Page count: {pageCount}</div>
-                    <div className='list-group-item'>Price: ${expectedPrice}</div>
-                    <div className='list-group-item'>Followers: {followers}</div>
-                    <div className='list-group-item'>Authors:
-                            <Authors authors={authors} />
-                    </div>
-                </div>
+                <Title click={() => onSelect()}>
+                    {title}
+                </Title>
+                {isPopular && <Badge type='primary'>Popular</Badge>}
+                <List.Group>
+                    <List.Item labe='Language'>{language}</List.Item>
+                    <List.Item labe='Page count'>{pageCount}</List.Item>
+                    <List.Item labe='Price'>${expectedPrice}</List.Item>
+                    <List.Item labe='Followers'>{followers}</List.Item>
+                    <List.Item labe='Authors:'><Authors authors={authors} /></List.Item>
+                </List.Group>
                 <SubscribeModal />
             </div>
         </div>

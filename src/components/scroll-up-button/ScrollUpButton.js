@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import throttle from '../../utils/throttle';
+import './scroll-up-button.scss';
 
 class ScrollUpButton extends Component {
     constructor(props) {
@@ -21,7 +22,6 @@ class ScrollUpButton extends Component {
     }
 
     onWindowScroll() {
-        console.log('here');
         if (window.pageYOffset > 100) {
             this.setState({visible: true})
         } else {
