@@ -5045,7 +5045,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _Use
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("// extracted by mini-css-extract-plugin\nmodule.exports = {\"user-info\":\"_1rFsKblJN20k2KntI2Oq7L\",\"user-info__avatar\":\"_2Xqd-53KwGtZT9qUftnQBj\"};\n\n//# sourceURL=webpack:///./components/user-info/user-info.scss?");
+eval("// extracted by mini-css-extract-plugin\nmodule.exports = {\"user-info\":\"_1rFsKblJN20k2KntI2Oq7L\",\"user-info__avatar\":\"_2Xqd-53KwGtZT9qUftnQBj\",\"user-info__name\":\"_2vHBB0J4t0cKpN12BLGehG\"};\n\n//# sourceURL=webpack:///./components/user-info/user-info.scss?");
 
 /***/ }),
 
