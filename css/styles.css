@@ -36,6 +36,9 @@
   display: block; }
 
 @charset "UTF-8";
+:root {
+  --с-default: rgb(184, 184, 184); }
+
 html {
   scroll-behavior: smooth; }
 
@@ -44,7 +47,4 @@ body {
   padding: 0;
   font-size: 16px;
   color: var(--c-default); }
-
-:root {
-  --с-default: rgb(184, 184, 184); }
 
