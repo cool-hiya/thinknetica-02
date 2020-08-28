@@ -4773,7 +4773,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _Hea
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"../node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _images_logo_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @images/logo.png */ \"./images/logo.png\");\n\n\n\nvar Logo = function Logo() {\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"a\", {\n    href: \"#\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"img\", {\n    src: _images_logo_png__WEBPACK_IMPORTED_MODULE_1__[\"default\"]\n  }));\n};\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (Logo);\n\n//# sourceURL=webpack:///./components/logo/Logo.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"../node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _images_logo_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @images/logo.png */ \"./images/logo.png\");\n/* harmony import */ var _logo_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./logo.scss */ \"./components/logo/logo.scss\");\n/* harmony import */ var _logo_scss__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_logo_scss__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var bem_names__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! bem-names */ \"../node_modules/bem-names/dist/bem-names.js\");\n/* harmony import */ var bem_names__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(bem_names__WEBPACK_IMPORTED_MODULE_3__);\n\n\n\n\nvar bem = Object(bem_names__WEBPACK_IMPORTED_MODULE_3__[\"bemNamesFactory\"])('logo');\n\nvar Logo = function Logo() {\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"a\", {\n    href: \"#\",\n    className: _logo_scss__WEBPACK_IMPORTED_MODULE_2___default.a[bem()]\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"img\", {\n    className: _logo_scss__WEBPACK_IMPORTED_MODULE_2___default.a[bem('image')],\n    src: _images_logo_png__WEBPACK_IMPORTED_MODULE_1__[\"default\"]\n  }));\n};\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (Logo);\n\n//# sourceURL=webpack:///./components/logo/Logo.js?");
 
 /***/ }),
 
@@ -4786,6 +4786,17 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var reac
 
 "use strict";
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _Logo__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Logo */ \"./components/logo/Logo.js\");\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (_Logo__WEBPACK_IMPORTED_MODULE_0__[\"default\"]);\n\n//# sourceURL=webpack:///./components/logo/index.js?");
+
+/***/ }),
+
+/***/ "./components/logo/logo.scss":
+/*!***********************************!*\
+  !*** ./components/logo/logo.scss ***!
+  \***********************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("// extracted by mini-css-extract-plugin\nmodule.exports = {\"logo__image\":\"_1nHE7IMstWBP5Brmt5MnK-\"};\n\n//# sourceURL=webpack:///./components/logo/logo.scss?");
 
 /***/ }),
 
