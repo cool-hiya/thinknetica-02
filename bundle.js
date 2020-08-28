@@ -4747,9 +4747,9 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var reac
   !*** ./components/header/header.module.scss ***!
   \**********************************************/
 /*! no static exports found */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
-eval("throw new Error(\"Module build failed (from ../node_modules/mini-css-extract-plugin/dist/loader.js):\\nModuleBuildError: Module build failed (from ../node_modules/sass-loader/dist/cjs.js):\\nSassError: File to import not found or unreadable: ../styles/mixins.\\n        on line 1 of C:\\\\Users\\\\Arina\\\\Desktop\\\\thinknetica-02\\\\src\\\\components\\\\header\\\\header.module.scss\\n>> @import '../styles/mixins';\\r\\n   ^\\n\\n    at C:\\\\Users\\\\Arina\\\\Desktop\\\\thinknetica-02\\\\node_modules\\\\webpack\\\\lib\\\\NormalModule.js:316:20\\n    at C:\\\\Users\\\\Arina\\\\Desktop\\\\thinknetica-02\\\\node_modules\\\\loader-runner\\\\lib\\\\LoaderRunner.js:367:11\\n    at C:\\\\Users\\\\Arina\\\\Desktop\\\\thinknetica-02\\\\node_modules\\\\loader-runner\\\\lib\\\\LoaderRunner.js:233:18\\n    at context.callback (C:\\\\Users\\\\Arina\\\\Desktop\\\\thinknetica-02\\\\node_modules\\\\loader-runner\\\\lib\\\\LoaderRunner.js:111:13)\\n    at Object.callback (C:\\\\Users\\\\Arina\\\\Desktop\\\\thinknetica-02\\\\node_modules\\\\sass-loader\\\\dist\\\\index.js:73:7)\\n    at Object.done [as callback] (C:\\\\Users\\\\Arina\\\\Desktop\\\\thinknetica-02\\\\node_modules\\\\neo-async\\\\async.js:8069:18)\\n    at options.error (C:\\\\Users\\\\Arina\\\\Desktop\\\\thinknetica-02\\\\node_modules\\\\node-sass\\\\lib\\\\index.js:294:32)\");\n\n//# sourceURL=webpack:///./components/header/header.module.scss?");
+eval("// extracted by mini-css-extract-plugin\nmodule.exports = {\"header\":\"IUx2kx-g6cZmXhLmh5U5G\",\"header__logo\":\"_3nTagF9gUTTItXrWfKEBfa\"};\n\n//# sourceURL=webpack:///./components/header/header.module.scss?");
 
 /***/ }),
 
