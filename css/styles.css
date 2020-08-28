@@ -10,6 +10,8 @@
     align-items: center;
     justify-content: space-between;
     height: 60px; }
+  .jZ6Ids6MIBRrGnt9s66RZ {
+    background-color: var(--bg-default-color); }
 
 ._1JM8lw4HPZeTokOUVim0xz {
   position: fixed;
@@ -43,6 +45,7 @@
 
 :root {
   --text-color: #333333;
+  --bg-default-color: #ffffff;
   --bg-primary-color: #f8f8f8; }
 
 html {
