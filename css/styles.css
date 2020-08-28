@@ -35,7 +35,10 @@
 ._3FL66efWfygSNNX0fAqgMC {
   margin: 0 auto;
   max-width: 1200px;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  padding: 0 35px;
+  display: flex;
+  align-items: center; }
 
 ._1JM8lw4HPZeTokOUVim0xz {
   position: fixed;
