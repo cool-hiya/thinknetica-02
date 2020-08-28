@@ -4725,7 +4725,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var reac
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("// extracted by mini-css-extract-plugin\nmodule.exports = {\"footer\":\"ouVniKxIBfPVMKKLuxqfM\"};\n\n//# sourceURL=webpack:///./components/footer/footer.modules.scss?");
+eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=webpack:///./components/footer/footer.modules.scss?");
 
 /***/ }),
 
