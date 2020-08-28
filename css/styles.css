@@ -22,7 +22,7 @@
   position: -webkit-sticky;
   position: sticky;
   top: 0;
-  box-shadow: 0 0 5px 0px var(--shadow-primary-color); }
+  box-shadow: 0 0 5px 0px var(--shadow-default-color); }
   ._3HUpDHr0d65fi1u8RQiLRv {
     margin: 0 auto;
     max-width: 1200px;
@@ -65,7 +65,7 @@
   --text-color: #333333;
   --bg-default-color: #ffffff;
   --bg-primary-color: #f8f8f8;
-  --shadow-primary-color: #808080; }
+  --shadow-default-color: #808080; }
 
 html {
   scroll-behavior: smooth; }
