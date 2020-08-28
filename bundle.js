@@ -4749,7 +4749,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var reac
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("// extracted by mini-css-extract-plugin\nmodule.exports = {\"header\":\"IUx2kx-g6cZmXhLmh5U5G\",\"header__logo\":\"_3nTagF9gUTTItXrWfKEBfa\"};\n\n//# sourceURL=webpack:///./components/header/header.module.scss?");
+eval("// extracted by mini-css-extract-plugin\nmodule.exports = {\"header__container\":\"_3HUpDHr0d65fi1u8RQiLRv\"};\n\n//# sourceURL=webpack:///./components/header/header.module.scss?");
 
 /***/ }),
 
