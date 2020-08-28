@@ -26,6 +26,7 @@
   ._3HUpDHr0d65fi1u8RQiLRv {
     margin: 0 auto;
     max-width: 1200px;
+    box-sizing: border-box;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -64,6 +65,7 @@
 ._3AeUvnqapMJGr_pQPVk3Yo {
   margin: 0 auto;
   max-width: 1200px;
+  box-sizing: border-box;
   padding: 40px; }
 
 :root {
