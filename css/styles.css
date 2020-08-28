@@ -43,3 +43,6 @@ body {
   padding: 0;
   font-size: 16px; }
 
+:root {
+  --default: rgb(184, 184, 184); }
+
