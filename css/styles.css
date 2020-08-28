@@ -38,8 +38,8 @@
   display: block; }
 
 :root {
-  --text-color: rgb(56, 56, 56);
-  --bg-primary-color: rgb(173, 173, 173); }
+  --text-color: #333333;
+  --bg-primary-color: #f8f8f8; }
 
 html {
   scroll-behavior: smooth; }
