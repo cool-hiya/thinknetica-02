@@ -32,14 +32,16 @@
     justify-content: space-between;
     height: 60px; }
 
-._3FL66efWfygSNNX0fAqgMC {
-  margin: 0 auto;
-  max-width: 1200px;
-  box-sizing: border-box;
-  padding: 0 35px;
-  display: flex;
-  align-items: center;
-  justify-content: flex-end; }
+.ouVniKxIBfPVMKKLuxqfM {
+  box-shadow: 0 0 5px 0px var(--shadow-default-color); }
+  ._3FL66efWfygSNNX0fAqgMC {
+    margin: 0 auto;
+    max-width: 1200px;
+    box-sizing: border-box;
+    padding: 0 35px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; }
 
 ._1JM8lw4HPZeTokOUVim0xz {
   position: fixed;
