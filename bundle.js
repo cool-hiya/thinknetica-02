@@ -5082,7 +5082,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var reac
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"images/c5480113299d3ba22e34cb838984c547.png\");\n\n//# sourceURL=webpack:///./images/logo.png?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"images/f0a65e6a3eb3d33139443271627da9d3.png\");\n\n//# sourceURL=webpack:///./images/logo.png?");
 
 /***/ }),
 
