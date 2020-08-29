@@ -4425,7 +4425,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var reac
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"../node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n\n\nvar withLoading = function withLoading(Component) {\n  return function (props) {\n    return props.isLoading ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"p\", null, \"Loading...\") : /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Component, props);\n  };\n};\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (withLoading);\n\n//# sourceURL=webpack:///./HOC/withLoading.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"../node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _components_loader__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/loader */ \"./components/loader/index.js\");\n\n\n\nvar withLoading = function withLoading(Component) {\n  return function (props) {\n    return props.isLoading ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_loader__WEBPACK_IMPORTED_MODULE_1__[\"default\"], null) : /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Component, props);\n  };\n};\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (withLoading);\n\n//# sourceURL=webpack:///./HOC/withLoading.js?");
 
 /***/ }),
 
@@ -4887,6 +4887,41 @@ eval("// extracted by mini-css-extract-plugin\nmodule.exports = {\"header\":\"IU
 
 "use strict";
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _Header__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Header */ \"./components/header/Header.js\");\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (_Header__WEBPACK_IMPORTED_MODULE_0__[\"default\"]);\n\n//# sourceURL=webpack:///./components/header/index.js?");
+
+/***/ }),
+
+/***/ "./components/loader/Loader.js":
+/*!*************************************!*\
+  !*** ./components/loader/Loader.js ***!
+  \*************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"../node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _loader_module_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./loader.module.scss */ \"./components/loader/loader.module.scss\");\n/* harmony import */ var _loader_module_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_loader_module_scss__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var bem_names__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! bem-names */ \"../node_modules/bem-names/dist/bem-names.js\");\n/* harmony import */ var bem_names__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(bem_names__WEBPACK_IMPORTED_MODULE_2__);\n\n\n\nvar bem = Object(bem_names__WEBPACK_IMPORTED_MODULE_2__[\"bemNamesFactory\"])('loader');\n\nvar Loader = function Loader() {\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"p\", null, \"Loading\");\n};\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (Loader);\n\n//# sourceURL=webpack:///./components/loader/Loader.js?");
+
+/***/ }),
+
+/***/ "./components/loader/index.js":
+/*!************************************!*\
+  !*** ./components/loader/index.js ***!
+  \************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _Loader__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Loader */ \"./components/loader/Loader.js\");\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (_Loader__WEBPACK_IMPORTED_MODULE_0__[\"default\"]);\n\n//# sourceURL=webpack:///./components/loader/index.js?");
+
+/***/ }),
+
+/***/ "./components/loader/loader.module.scss":
+/*!**********************************************!*\
+  !*** ./components/loader/loader.module.scss ***!
+  \**********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=webpack:///./components/loader/loader.module.scss?");
 
 /***/ }),
 
