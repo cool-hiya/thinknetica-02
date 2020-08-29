@@ -75,7 +75,8 @@
   display: block; }
 
 ._3BUilpdB_KDcL2xWtrX6-9 {
-  flex-grow: 1; }
+  flex-grow: 1;
+  display: flex; }
   ._3AeUvnqapMJGr_pQPVk3Yo {
     margin: 0 auto;
     max-width: 1200px;
