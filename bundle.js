@@ -5134,10 +5134,9 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var reac
   !*** ./images/logo.png ***!
   \*************************/
 /*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ (function(module, exports) {
 
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"images/e694b9eed3c0739f80f1cc5665becb2c.png\");\n\n//# sourceURL=webpack:///./images/logo.png?");
+eval("throw new Error(\"Module build failed (from ../node_modules/image-webpack-loader/index.js):\\nError: ENOENT: no such file or directory, open 'C:\\\\Users\\\\Arina\\\\Desktop\\\\thinknetica-02\\\\src\\\\images\\\\logo.png'\");\n\n//# sourceURL=webpack:///./images/logo.png?");
 
 /***/ }),
 
