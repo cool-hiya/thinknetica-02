@@ -52,11 +52,14 @@
   position: relative;
   overflow: hidden;
   cursor: pointer; }
+  .s3iTzKFYoofnQ5hg4tD_7:hover ._224cOfhwaaOT7xbpuJuY8F {
+    opacity: 1; }
   ._224cOfhwaaOT7xbpuJuY8F {
     position: absolute;
     top: 0;
     left: 0;
-    height: auto; }
+    height: auto;
+    opacity: 0; }
   ._3a526NSYgKinhTTDzWa_dS {
     width: 100%; }
 
