@@ -298,6 +298,9 @@
         grid-template-columns: auto; } }
   ._2_x28I6iUQBaNzTjaUBTqs {
     width: 100%; }
+    @media (max-width: 1200px) {
+      ._2_x28I6iUQBaNzTjaUBTqs {
+        max-width: 400px; } }
   .mH3oAxa0H4srHcu5y8R7A {
     margin-top: 30px; }
   ._3AoIYUMB_jRZUyjbxWND1t {
