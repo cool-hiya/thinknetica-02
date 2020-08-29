@@ -4529,9 +4529,9 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var reac
   !*** ./components/book-card/book-card.module.scss ***!
   \****************************************************/
 /*! no static exports found */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
-eval("throw new Error(\"Module build failed (from ../node_modules/mini-css-extract-plugin/dist/loader.js):\\nModuleBuildError: Module build failed (from ../node_modules/sass-loader/dist/cjs.js):\\nSassError: no mixin named reset-button\\n        on line 62 of src/styles/mixins.scss\\n        from line 1 of C:\\\\Users\\\\Arina\\\\Desktop\\\\thinknetica-02\\\\src\\\\components\\\\book-card\\\\book-card.module.scss\\n>> @include reset-button {\\r\\n   ---------^\\n\\n    at C:\\\\Users\\\\Arina\\\\Desktop\\\\thinknetica-02\\\\node_modules\\\\webpack\\\\lib\\\\NormalModule.js:316:20\\n    at C:\\\\Users\\\\Arina\\\\Desktop\\\\thinknetica-02\\\\node_modules\\\\loader-runner\\\\lib\\\\LoaderRunner.js:367:11\\n    at C:\\\\Users\\\\Arina\\\\Desktop\\\\thinknetica-02\\\\node_modules\\\\loader-runner\\\\lib\\\\LoaderRunner.js:233:18\\n    at context.callback (C:\\\\Users\\\\Arina\\\\Desktop\\\\thinknetica-02\\\\node_modules\\\\loader-runner\\\\lib\\\\LoaderRunner.js:111:13)\\n    at Object.callback (C:\\\\Users\\\\Arina\\\\Desktop\\\\thinknetica-02\\\\node_modules\\\\sass-loader\\\\dist\\\\index.js:73:7)\\n    at Object.done [as callback] (C:\\\\Users\\\\Arina\\\\Desktop\\\\thinknetica-02\\\\node_modules\\\\neo-async\\\\async.js:8069:18)\\n    at options.error (C:\\\\Users\\\\Arina\\\\Desktop\\\\thinknetica-02\\\\node_modules\\\\node-sass\\\\lib\\\\index.js:294:32)\");\n\n//# sourceURL=webpack:///./components/book-card/book-card.module.scss?");
+eval("// extracted by mini-css-extract-plugin\nmodule.exports = {\"book-card\":\"s3iTzKFYoofnQ5hg4tD_7\",\"book-card__content\":\"_224cOfhwaaOT7xbpuJuY8F\",\"book-card__img\":\"_3a526NSYgKinhTTDzWa_dS\",\"book-card__title\":\"lXgAucM-gOBhtHRdrVY8X\",\"book-card__list\":\"_2IneWeLdSTsG3nzajuFUC5\",\"book-card__list-item\":\"_1G0eOOWiI6Wer6qYaS2xj6\",\"book-card__close\":\"r_gM3tIkrWQZKclb6vswr\"};\n\n//# sourceURL=webpack:///./components/book-card/book-card.module.scss?");
 
 /***/ }),
 
@@ -4612,9 +4612,9 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var reac
   !*** ./components/book-details/book-details.module.scss ***!
   \**********************************************************/
 /*! no static exports found */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
-eval("throw new Error(\"Module build failed (from ../node_modules/mini-css-extract-plugin/dist/loader.js):\\nModuleBuildError: Module build failed (from ../node_modules/sass-loader/dist/cjs.js):\\nSassError: no mixin named reset-button\\n        on line 62 of src/styles/mixins.scss\\n        from line 1 of C:\\\\Users\\\\Arina\\\\Desktop\\\\thinknetica-02\\\\src\\\\components\\\\book-details\\\\book-details.module.scss\\n>> @include reset-button {\\r\\n   ---------^\\n\\n    at C:\\\\Users\\\\Arina\\\\Desktop\\\\thinknetica-02\\\\node_modules\\\\webpack\\\\lib\\\\NormalModule.js:316:20\\n    at C:\\\\Users\\\\Arina\\\\Desktop\\\\thinknetica-02\\\\node_modules\\\\loader-runner\\\\lib\\\\LoaderRunner.js:367:11\\n    at C:\\\\Users\\\\Arina\\\\Desktop\\\\thinknetica-02\\\\node_modules\\\\loader-runner\\\\lib\\\\LoaderRunner.js:233:18\\n    at context.callback (C:\\\\Users\\\\Arina\\\\Desktop\\\\thinknetica-02\\\\node_modules\\\\loader-runner\\\\lib\\\\LoaderRunner.js:111:13)\\n    at Object.callback (C:\\\\Users\\\\Arina\\\\Desktop\\\\thinknetica-02\\\\node_modules\\\\sass-loader\\\\dist\\\\index.js:73:7)\\n    at Object.done [as callback] (C:\\\\Users\\\\Arina\\\\Desktop\\\\thinknetica-02\\\\node_modules\\\\neo-async\\\\async.js:8069:18)\\n    at options.error (C:\\\\Users\\\\Arina\\\\Desktop\\\\thinknetica-02\\\\node_modules\\\\node-sass\\\\lib\\\\index.js:294:32)\");\n\n//# sourceURL=webpack:///./components/book-details/book-details.module.scss?");
+eval("// extracted by mini-css-extract-plugin\nmodule.exports = {\"book-details\":\"_1CDnW1F8Vxz1vUQ1bBmjtQ\",\"book-details__content\":\"UQ-Ds7-rfQeNRWQKh6NvB\",\"book-details__img\":\"_2_x28I6iUQBaNzTjaUBTqs\",\"book-details__recommended\":\"mH3oAxa0H4srHcu5y8R7A\",\"book-details__price-input\":\"_3AoIYUMB_jRZUyjbxWND1t\"};\n\n//# sourceURL=webpack:///./components/book-details/book-details.module.scss?");
 
 /***/ }),
 
@@ -4647,9 +4647,9 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var reac
   !*** ./components/catalog/catalog.module.scss ***!
   \************************************************/
 /*! no static exports found */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
-eval("throw new Error(\"Module build failed (from ../node_modules/mini-css-extract-plugin/dist/loader.js):\\nModuleBuildError: Module build failed (from ../node_modules/sass-loader/dist/cjs.js):\\nSassError: no mixin named reset-button\\n        on line 62 of src/styles/mixins.scss\\n        from line 1 of C:\\\\Users\\\\Arina\\\\Desktop\\\\thinknetica-02\\\\src\\\\components\\\\catalog\\\\catalog.module.scss\\n>> @include reset-button {\\r\\n   ---------^\\n\\n    at C:\\\\Users\\\\Arina\\\\Desktop\\\\thinknetica-02\\\\node_modules\\\\webpack\\\\lib\\\\NormalModule.js:316:20\\n    at C:\\\\Users\\\\Arina\\\\Desktop\\\\thinknetica-02\\\\node_modules\\\\loader-runner\\\\lib\\\\LoaderRunner.js:367:11\\n    at C:\\\\Users\\\\Arina\\\\Desktop\\\\thinknetica-02\\\\node_modules\\\\loader-runner\\\\lib\\\\LoaderRunner.js:233:18\\n    at context.callback (C:\\\\Users\\\\Arina\\\\Desktop\\\\thinknetica-02\\\\node_modules\\\\loader-runner\\\\lib\\\\LoaderRunner.js:111:13)\\n    at Object.callback (C:\\\\Users\\\\Arina\\\\Desktop\\\\thinknetica-02\\\\node_modules\\\\sass-loader\\\\dist\\\\index.js:73:7)\\n    at Object.done [as callback] (C:\\\\Users\\\\Arina\\\\Desktop\\\\thinknetica-02\\\\node_modules\\\\neo-async\\\\async.js:8069:18)\\n    at options.error (C:\\\\Users\\\\Arina\\\\Desktop\\\\thinknetica-02\\\\node_modules\\\\node-sass\\\\lib\\\\index.js:294:32)\");\n\n//# sourceURL=webpack:///./components/catalog/catalog.module.scss?");
+eval("// extracted by mini-css-extract-plugin\nmodule.exports = {\"catalog\":\"_1WEmKz3js9EbTnMBS4qG03\"};\n\n//# sourceURL=webpack:///./components/catalog/catalog.module.scss?");
 
 /***/ }),
 
@@ -4706,9 +4706,9 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _But
   !*** ./components/contact-form/contact-form.module.scss ***!
   \**********************************************************/
 /*! no static exports found */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
-eval("throw new Error(\"Module build failed (from ../node_modules/mini-css-extract-plugin/dist/loader.js):\\nModuleBuildError: Module build failed (from ../node_modules/sass-loader/dist/cjs.js):\\nSassError: no mixin named reset-button\\n        on line 62 of src/styles/mixins.scss\\n        from line 1 of C:\\\\Users\\\\Arina\\\\Desktop\\\\thinknetica-02\\\\src\\\\components\\\\contact-form\\\\contact-form.module.scss\\n>> @include reset-button {\\r\\n   ---------^\\n\\n    at C:\\\\Users\\\\Arina\\\\Desktop\\\\thinknetica-02\\\\node_modules\\\\webpack\\\\lib\\\\NormalModule.js:316:20\\n    at C:\\\\Users\\\\Arina\\\\Desktop\\\\thinknetica-02\\\\node_modules\\\\loader-runner\\\\lib\\\\LoaderRunner.js:367:11\\n    at C:\\\\Users\\\\Arina\\\\Desktop\\\\thinknetica-02\\\\node_modules\\\\loader-runner\\\\lib\\\\LoaderRunner.js:233:18\\n    at context.callback (C:\\\\Users\\\\Arina\\\\Desktop\\\\thinknetica-02\\\\node_modules\\\\loader-runner\\\\lib\\\\LoaderRunner.js:111:13)\\n    at Object.callback (C:\\\\Users\\\\Arina\\\\Desktop\\\\thinknetica-02\\\\node_modules\\\\sass-loader\\\\dist\\\\index.js:73:7)\\n    at Object.done [as callback] (C:\\\\Users\\\\Arina\\\\Desktop\\\\thinknetica-02\\\\node_modules\\\\neo-async\\\\async.js:8069:18)\\n    at options.error (C:\\\\Users\\\\Arina\\\\Desktop\\\\thinknetica-02\\\\node_modules\\\\node-sass\\\\lib\\\\index.js:294:32)\");\n\n//# sourceURL=webpack:///./components/contact-form/contact-form.module.scss?");
+eval("// extracted by mini-css-extract-plugin\nmodule.exports = {\"contact-form\":\"_1dGy4XKqkJ6or8lqWT0ZqU\",\"contact-form__form\":\"lxcRT1RHf_hgvyilTG44i\",\"contact-form__title\":\"_2zSrdPj6qWun_EcTBHnal9\",\"contact-form__button\":\"_10GFaNcyimfzMtoNT61wm0\"};\n\n//# sourceURL=webpack:///./components/contact-form/contact-form.module.scss?");
 
 /***/ }),
 
@@ -4789,9 +4789,9 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var reac
   !*** ./components/field/field.module.scss ***!
   \********************************************/
 /*! no static exports found */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
-eval("throw new Error(\"Module build failed (from ../node_modules/mini-css-extract-plugin/dist/loader.js):\\nModuleBuildError: Module build failed (from ../node_modules/sass-loader/dist/cjs.js):\\nSassError: no mixin named reset-button\\n        on line 62 of src/styles/mixins.scss\\n        from line 1 of C:\\\\Users\\\\Arina\\\\Desktop\\\\thinknetica-02\\\\src\\\\components\\\\field\\\\field.module.scss\\n>> @include reset-button {\\r\\n   ---------^\\n\\n    at C:\\\\Users\\\\Arina\\\\Desktop\\\\thinknetica-02\\\\node_modules\\\\webpack\\\\lib\\\\NormalModule.js:316:20\\n    at C:\\\\Users\\\\Arina\\\\Desktop\\\\thinknetica-02\\\\node_modules\\\\loader-runner\\\\lib\\\\LoaderRunner.js:367:11\\n    at C:\\\\Users\\\\Arina\\\\Desktop\\\\thinknetica-02\\\\node_modules\\\\loader-runner\\\\lib\\\\LoaderRunner.js:233:18\\n    at context.callback (C:\\\\Users\\\\Arina\\\\Desktop\\\\thinknetica-02\\\\node_modules\\\\loader-runner\\\\lib\\\\LoaderRunner.js:111:13)\\n    at Object.callback (C:\\\\Users\\\\Arina\\\\Desktop\\\\thinknetica-02\\\\node_modules\\\\sass-loader\\\\dist\\\\index.js:73:7)\\n    at Object.done [as callback] (C:\\\\Users\\\\Arina\\\\Desktop\\\\thinknetica-02\\\\node_modules\\\\neo-async\\\\async.js:8069:18)\\n    at options.error (C:\\\\Users\\\\Arina\\\\Desktop\\\\thinknetica-02\\\\node_modules\\\\node-sass\\\\lib\\\\index.js:294:32)\");\n\n//# sourceURL=webpack:///./components/field/field.module.scss?");
+eval("// extracted by mini-css-extract-plugin\nmodule.exports = {\"field\":\"_2HOQQ9J1n3tzZ14VLKnnjj\",\"field__label\":\"_1eVUsjZ-RlKucDqkcj9x9D\",\"field__control\":\"_2167O60-E_fTQC2NImmIRR\"};\n\n//# sourceURL=webpack:///./components/field/field.module.scss?");
 
 /***/ }),
 
@@ -4824,9 +4824,9 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var reac
   !*** ./components/footer/footer.module.scss ***!
   \**********************************************/
 /*! no static exports found */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
-eval("throw new Error(\"Module build failed (from ../node_modules/mini-css-extract-plugin/dist/loader.js):\\nModuleBuildError: Module build failed (from ../node_modules/sass-loader/dist/cjs.js):\\nSassError: no mixin named reset-button\\n        on line 62 of src/styles/mixins.scss\\n        from line 1 of C:\\\\Users\\\\Arina\\\\Desktop\\\\thinknetica-02\\\\src\\\\components\\\\footer\\\\footer.module.scss\\n>> @include reset-button {\\r\\n   ---------^\\n\\n    at C:\\\\Users\\\\Arina\\\\Desktop\\\\thinknetica-02\\\\node_modules\\\\webpack\\\\lib\\\\NormalModule.js:316:20\\n    at C:\\\\Users\\\\Arina\\\\Desktop\\\\thinknetica-02\\\\node_modules\\\\loader-runner\\\\lib\\\\LoaderRunner.js:367:11\\n    at C:\\\\Users\\\\Arina\\\\Desktop\\\\thinknetica-02\\\\node_modules\\\\loader-runner\\\\lib\\\\LoaderRunner.js:233:18\\n    at context.callback (C:\\\\Users\\\\Arina\\\\Desktop\\\\thinknetica-02\\\\node_modules\\\\loader-runner\\\\lib\\\\LoaderRunner.js:111:13)\\n    at Object.callback (C:\\\\Users\\\\Arina\\\\Desktop\\\\thinknetica-02\\\\node_modules\\\\sass-loader\\\\dist\\\\index.js:73:7)\\n    at Object.done [as callback] (C:\\\\Users\\\\Arina\\\\Desktop\\\\thinknetica-02\\\\node_modules\\\\neo-async\\\\async.js:8069:18)\\n    at options.error (C:\\\\Users\\\\Arina\\\\Desktop\\\\thinknetica-02\\\\node_modules\\\\node-sass\\\\lib\\\\index.js:294:32)\");\n\n//# sourceURL=webpack:///./components/footer/footer.module.scss?");
+eval("// extracted by mini-css-extract-plugin\nmodule.exports = {\"footer\":\"_1mSBx3u8HfkAmkSWQPFkYU\",\"footer__container\":\"_7Hku_Up5ZBkDabcB1XMgd\"};\n\n//# sourceURL=webpack:///./components/footer/footer.module.scss?");
 
 /***/ }),
 
@@ -4859,9 +4859,9 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var reac
   !*** ./components/header/header.module.scss ***!
   \**********************************************/
 /*! no static exports found */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
-eval("throw new Error(\"Module build failed (from ../node_modules/mini-css-extract-plugin/dist/loader.js):\\nModuleBuildError: Module build failed (from ../node_modules/sass-loader/dist/cjs.js):\\nSassError: no mixin named reset-button\\n        on line 62 of src/styles/mixins.scss\\n        from line 1 of C:\\\\Users\\\\Arina\\\\Desktop\\\\thinknetica-02\\\\src\\\\components\\\\header\\\\header.module.scss\\n>> @include reset-button {\\r\\n   ---------^\\n\\n    at C:\\\\Users\\\\Arina\\\\Desktop\\\\thinknetica-02\\\\node_modules\\\\webpack\\\\lib\\\\NormalModule.js:316:20\\n    at C:\\\\Users\\\\Arina\\\\Desktop\\\\thinknetica-02\\\\node_modules\\\\loader-runner\\\\lib\\\\LoaderRunner.js:367:11\\n    at C:\\\\Users\\\\Arina\\\\Desktop\\\\thinknetica-02\\\\node_modules\\\\loader-runner\\\\lib\\\\LoaderRunner.js:233:18\\n    at context.callback (C:\\\\Users\\\\Arina\\\\Desktop\\\\thinknetica-02\\\\node_modules\\\\loader-runner\\\\lib\\\\LoaderRunner.js:111:13)\\n    at Object.callback (C:\\\\Users\\\\Arina\\\\Desktop\\\\thinknetica-02\\\\node_modules\\\\sass-loader\\\\dist\\\\index.js:73:7)\\n    at Object.done [as callback] (C:\\\\Users\\\\Arina\\\\Desktop\\\\thinknetica-02\\\\node_modules\\\\neo-async\\\\async.js:8069:18)\\n    at options.error (C:\\\\Users\\\\Arina\\\\Desktop\\\\thinknetica-02\\\\node_modules\\\\node-sass\\\\lib\\\\index.js:294:32)\");\n\n//# sourceURL=webpack:///./components/header/header.module.scss?");
+eval("// extracted by mini-css-extract-plugin\nmodule.exports = {\"header\":\"IUx2kx-g6cZmXhLmh5U5G\",\"header__container\":\"_3HUpDHr0d65fi1u8RQiLRv\"};\n\n//# sourceURL=webpack:///./components/header/header.module.scss?");
 
 /***/ }),
 
@@ -4988,9 +4988,9 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _Mai
   !*** ./components/main-container/main-container.module.scss ***!
   \**************************************************************/
 /*! no static exports found */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
-eval("throw new Error(\"Module build failed (from ../node_modules/mini-css-extract-plugin/dist/loader.js):\\nModuleBuildError: Module build failed (from ../node_modules/sass-loader/dist/cjs.js):\\nSassError: no mixin named reset-button\\n        on line 62 of src/styles/mixins.scss\\n        from line 1 of C:\\\\Users\\\\Arina\\\\Desktop\\\\thinknetica-02\\\\src\\\\components\\\\main-container\\\\main-container.module.scss\\n>> @include reset-button {\\r\\n   ---------^\\n\\n    at C:\\\\Users\\\\Arina\\\\Desktop\\\\thinknetica-02\\\\node_modules\\\\webpack\\\\lib\\\\NormalModule.js:316:20\\n    at C:\\\\Users\\\\Arina\\\\Desktop\\\\thinknetica-02\\\\node_modules\\\\loader-runner\\\\lib\\\\LoaderRunner.js:367:11\\n    at C:\\\\Users\\\\Arina\\\\Desktop\\\\thinknetica-02\\\\node_modules\\\\loader-runner\\\\lib\\\\LoaderRunner.js:233:18\\n    at context.callback (C:\\\\Users\\\\Arina\\\\Desktop\\\\thinknetica-02\\\\node_modules\\\\loader-runner\\\\lib\\\\LoaderRunner.js:111:13)\\n    at Object.callback (C:\\\\Users\\\\Arina\\\\Desktop\\\\thinknetica-02\\\\node_modules\\\\sass-loader\\\\dist\\\\index.js:73:7)\\n    at Object.done [as callback] (C:\\\\Users\\\\Arina\\\\Desktop\\\\thinknetica-02\\\\node_modules\\\\neo-async\\\\async.js:8069:18)\\n    at options.error (C:\\\\Users\\\\Arina\\\\Desktop\\\\thinknetica-02\\\\node_modules\\\\node-sass\\\\lib\\\\index.js:294:32)\");\n\n//# sourceURL=webpack:///./components/main-container/main-container.module.scss?");
+eval("// extracted by mini-css-extract-plugin\nmodule.exports = {\"main-container\":\"_3BUilpdB_KDcL2xWtrX6-9\",\"main-container__container\":\"_3AeUvnqapMJGr_pQPVk3Yo\"};\n\n//# sourceURL=webpack:///./components/main-container/main-container.module.scss?");
 
 /***/ }),
 
@@ -5023,9 +5023,9 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _Mod
   !*** ./components/modal/modal.module.scss ***!
   \********************************************/
 /*! no static exports found */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
-eval("throw new Error(\"Module build failed (from ../node_modules/mini-css-extract-plugin/dist/loader.js):\\nModuleBuildError: Module build failed (from ../node_modules/sass-loader/dist/cjs.js):\\nSassError: no mixin named reset-button\\n        on line 62 of src/styles/mixins.scss\\n        from line 1 of C:\\\\Users\\\\Arina\\\\Desktop\\\\thinknetica-02\\\\src\\\\components\\\\modal\\\\modal.module.scss\\n>> @include reset-button {\\r\\n   ---------^\\n\\n    at C:\\\\Users\\\\Arina\\\\Desktop\\\\thinknetica-02\\\\node_modules\\\\webpack\\\\lib\\\\NormalModule.js:316:20\\n    at C:\\\\Users\\\\Arina\\\\Desktop\\\\thinknetica-02\\\\node_modules\\\\loader-runner\\\\lib\\\\LoaderRunner.js:367:11\\n    at C:\\\\Users\\\\Arina\\\\Desktop\\\\thinknetica-02\\\\node_modules\\\\loader-runner\\\\lib\\\\LoaderRunner.js:233:18\\n    at context.callback (C:\\\\Users\\\\Arina\\\\Desktop\\\\thinknetica-02\\\\node_modules\\\\loader-runner\\\\lib\\\\LoaderRunner.js:111:13)\\n    at Object.callback (C:\\\\Users\\\\Arina\\\\Desktop\\\\thinknetica-02\\\\node_modules\\\\sass-loader\\\\dist\\\\index.js:73:7)\\n    at Object.done [as callback] (C:\\\\Users\\\\Arina\\\\Desktop\\\\thinknetica-02\\\\node_modules\\\\neo-async\\\\async.js:8069:18)\\n    at options.error (C:\\\\Users\\\\Arina\\\\Desktop\\\\thinknetica-02\\\\node_modules\\\\node-sass\\\\lib\\\\index.js:294:32)\");\n\n//# sourceURL=webpack:///./components/modal/modal.module.scss?");
+eval("// extracted by mini-css-extract-plugin\nmodule.exports = {\"modal__overlay\":\"_1doPnzLn7RCcmMgqsmXDCQ\",\"modal__content\":\"_1hZElHibrUGBrJ03jfPRti\",\"modal__button\":\"ik9---Q0S7xSWkimuzsOp\"};\n\n//# sourceURL=webpack:///./components/modal/modal.module.scss?");
 
 /***/ }),
 
@@ -5093,9 +5093,9 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _Rec
   !*** ./components/recommended/recommended.module.scss ***!
   \********************************************************/
 /*! no static exports found */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
-eval("throw new Error(\"Module build failed (from ../node_modules/mini-css-extract-plugin/dist/loader.js):\\nModuleBuildError: Module build failed (from ../node_modules/sass-loader/dist/cjs.js):\\nSassError: no mixin named reset-button\\n        on line 62 of src/styles/mixins.scss\\n        from line 1 of C:\\\\Users\\\\Arina\\\\Desktop\\\\thinknetica-02\\\\src\\\\components\\\\recommended\\\\recommended.module.scss\\n>> @include reset-button {\\r\\n   ---------^\\n\\n    at C:\\\\Users\\\\Arina\\\\Desktop\\\\thinknetica-02\\\\node_modules\\\\webpack\\\\lib\\\\NormalModule.js:316:20\\n    at C:\\\\Users\\\\Arina\\\\Desktop\\\\thinknetica-02\\\\node_modules\\\\loader-runner\\\\lib\\\\LoaderRunner.js:367:11\\n    at C:\\\\Users\\\\Arina\\\\Desktop\\\\thinknetica-02\\\\node_modules\\\\loader-runner\\\\lib\\\\LoaderRunner.js:233:18\\n    at context.callback (C:\\\\Users\\\\Arina\\\\Desktop\\\\thinknetica-02\\\\node_modules\\\\loader-runner\\\\lib\\\\LoaderRunner.js:111:13)\\n    at Object.callback (C:\\\\Users\\\\Arina\\\\Desktop\\\\thinknetica-02\\\\node_modules\\\\sass-loader\\\\dist\\\\index.js:73:7)\\n    at Object.done [as callback] (C:\\\\Users\\\\Arina\\\\Desktop\\\\thinknetica-02\\\\node_modules\\\\neo-async\\\\async.js:8069:18)\\n    at options.error (C:\\\\Users\\\\Arina\\\\Desktop\\\\thinknetica-02\\\\node_modules\\\\node-sass\\\\lib\\\\index.js:294:32)\");\n\n//# sourceURL=webpack:///./components/recommended/recommended.module.scss?");
+eval("// extracted by mini-css-extract-plugin\nmodule.exports = {\"recommended__list\":\"XbTtf2fkjcxi0jaeSTmdk\"};\n\n//# sourceURL=webpack:///./components/recommended/recommended.module.scss?");
 
 /***/ }),
 
@@ -5163,9 +5163,9 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _Sea
   !*** ./components/search-form/search-form.module.scss ***!
   \********************************************************/
 /*! no static exports found */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
-eval("throw new Error(\"Module build failed (from ../node_modules/mini-css-extract-plugin/dist/loader.js):\\nModuleBuildError: Module build failed (from ../node_modules/sass-loader/dist/cjs.js):\\nSassError: no mixin named reset-button\\n        on line 62 of src/styles/mixins.scss\\n        from line 1 of C:\\\\Users\\\\Arina\\\\Desktop\\\\thinknetica-02\\\\src\\\\components\\\\search-form\\\\search-form.module.scss\\n>> @include reset-button {\\r\\n   ---------^\\n\\n    at C:\\\\Users\\\\Arina\\\\Desktop\\\\thinknetica-02\\\\node_modules\\\\webpack\\\\lib\\\\NormalModule.js:316:20\\n    at C:\\\\Users\\\\Arina\\\\Desktop\\\\thinknetica-02\\\\node_modules\\\\loader-runner\\\\lib\\\\LoaderRunner.js:367:11\\n    at C:\\\\Users\\\\Arina\\\\Desktop\\\\thinknetica-02\\\\node_modules\\\\loader-runner\\\\lib\\\\LoaderRunner.js:233:18\\n    at context.callback (C:\\\\Users\\\\Arina\\\\Desktop\\\\thinknetica-02\\\\node_modules\\\\loader-runner\\\\lib\\\\LoaderRunner.js:111:13)\\n    at Object.callback (C:\\\\Users\\\\Arina\\\\Desktop\\\\thinknetica-02\\\\node_modules\\\\sass-loader\\\\dist\\\\index.js:73:7)\\n    at Object.done [as callback] (C:\\\\Users\\\\Arina\\\\Desktop\\\\thinknetica-02\\\\node_modules\\\\neo-async\\\\async.js:8069:18)\\n    at options.error (C:\\\\Users\\\\Arina\\\\Desktop\\\\thinknetica-02\\\\node_modules\\\\node-sass\\\\lib\\\\index.js:294:32)\");\n\n//# sourceURL=webpack:///./components/search-form/search-form.module.scss?");
+eval("// extracted by mini-css-extract-plugin\nmodule.exports = {\"search-form\":\"NWX0-eufkg7_MI0MzV-7n\",\"search-form__control\":\"V7zqHbXRpY79bzI94-VO6\",\"search-form__button\":\"_3B_9-6jJCQwCxfhQpG04SR\"};\n\n//# sourceURL=webpack:///./components/search-form/search-form.module.scss?");
 
 /***/ }),
 
@@ -5198,9 +5198,9 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _Sub
   !*** ./components/subscribe-modal/subscribe-modal.module.scss ***!
   \****************************************************************/
 /*! no static exports found */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
-eval("throw new Error(\"Module build failed (from ../node_modules/mini-css-extract-plugin/dist/loader.js):\\nModuleBuildError: Module build failed (from ../node_modules/sass-loader/dist/cjs.js):\\nSassError: no mixin named reset-button\\n        on line 62 of src/styles/mixins.scss\\n        from line 1 of C:\\\\Users\\\\Arina\\\\Desktop\\\\thinknetica-02\\\\src\\\\components\\\\subscribe-modal\\\\subscribe-modal.module.scss\\n>> @include reset-button {\\r\\n   ---------^\\n\\n    at C:\\\\Users\\\\Arina\\\\Desktop\\\\thinknetica-02\\\\node_modules\\\\webpack\\\\lib\\\\NormalModule.js:316:20\\n    at C:\\\\Users\\\\Arina\\\\Desktop\\\\thinknetica-02\\\\node_modules\\\\loader-runner\\\\lib\\\\LoaderRunner.js:367:11\\n    at C:\\\\Users\\\\Arina\\\\Desktop\\\\thinknetica-02\\\\node_modules\\\\loader-runner\\\\lib\\\\LoaderRunner.js:233:18\\n    at context.callback (C:\\\\Users\\\\Arina\\\\Desktop\\\\thinknetica-02\\\\node_modules\\\\loader-runner\\\\lib\\\\LoaderRunner.js:111:13)\\n    at Object.callback (C:\\\\Users\\\\Arina\\\\Desktop\\\\thinknetica-02\\\\node_modules\\\\sass-loader\\\\dist\\\\index.js:73:7)\\n    at Object.done [as callback] (C:\\\\Users\\\\Arina\\\\Desktop\\\\thinknetica-02\\\\node_modules\\\\neo-async\\\\async.js:8069:18)\\n    at options.error (C:\\\\Users\\\\Arina\\\\Desktop\\\\thinknetica-02\\\\node_modules\\\\node-sass\\\\lib\\\\index.js:294:32)\");\n\n//# sourceURL=webpack:///./components/subscribe-modal/subscribe-modal.module.scss?");
+eval("// extracted by mini-css-extract-plugin\nmodule.exports = {\"subscribe-modal__button\":\"_2o3ilaTx1QrsohdMvScTc2\"};\n\n//# sourceURL=webpack:///./components/subscribe-modal/subscribe-modal.module.scss?");
 
 /***/ }),
 
