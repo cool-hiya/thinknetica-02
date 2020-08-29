@@ -4815,7 +4815,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _Fie
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"../node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _copyright__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../copyright */ \"./components/copyright/index.js\");\n/* harmony import */ var _footer_module_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./footer.module.scss */ \"./components/footer/footer.module.scss\");\n/* harmony import */ var _footer_module_scss__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_footer_module_scss__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var bem_names__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! bem-names */ \"../node_modules/bem-names/dist/bem-names.js\");\n/* harmony import */ var bem_names__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(bem_names__WEBPACK_IMPORTED_MODULE_3__);\n\n\n\n\nvar bem = Object(bem_names__WEBPACK_IMPORTED_MODULE_3__[\"bemNamesFactory\"])('footer');\n\nvar Footer = function Footer() {\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"footer\", {\n    className: _footer_module_scss__WEBPACK_IMPORTED_MODULE_2___default.a[bem()]\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n    className: _footer_module_scss__WEBPACK_IMPORTED_MODULE_2___default.a[bem('container')]\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_copyright__WEBPACK_IMPORTED_MODULE_1__[\"default\"], null)));\n};\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (Footer);\n\n//# sourceURL=webpack:///./components/footer/Footer.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"../node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _copyright__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../copyright */ \"./components/copyright/index.js\");\n/* harmony import */ var _footer_module_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./footer.module.scss */ \"./components/footer/footer.module.scss\");\n/* harmony import */ var _footer_module_scss__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_footer_module_scss__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var bem_names__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! bem-names */ \"../node_modules/bem-names/dist/bem-names.js\");\n/* harmony import */ var bem_names__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(bem_names__WEBPACK_IMPORTED_MODULE_3__);\n/* harmony import */ var _theme_switcher__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../theme-switcher */ \"./components/theme-switcher/index.js\");\n\n\n\n\n\nvar bem = Object(bem_names__WEBPACK_IMPORTED_MODULE_3__[\"bemNamesFactory\"])('footer');\n\nvar Footer = function Footer() {\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"footer\", {\n    className: _footer_module_scss__WEBPACK_IMPORTED_MODULE_2___default.a[bem()]\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n    className: _footer_module_scss__WEBPACK_IMPORTED_MODULE_2___default.a[bem('container')]\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_theme_switcher__WEBPACK_IMPORTED_MODULE_4__[\"default\"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_copyright__WEBPACK_IMPORTED_MODULE_1__[\"default\"], null)));\n};\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (Footer);\n\n//# sourceURL=webpack:///./components/footer/Footer.js?");
 
 /***/ }),
 
@@ -5201,6 +5201,41 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _Sub
 /***/ (function(module, exports, __webpack_require__) {
 
 eval("// extracted by mini-css-extract-plugin\nmodule.exports = {\"subscribe-modal__button\":\"_2o3ilaTx1QrsohdMvScTc2\"};\n\n//# sourceURL=webpack:///./components/subscribe-modal/subscribe-modal.module.scss?");
+
+/***/ }),
+
+/***/ "./components/theme-switcher/ThemeSwitcher.js":
+/*!****************************************************!*\
+  !*** ./components/theme-switcher/ThemeSwitcher.js ***!
+  \****************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"../node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _theme_switcher_module_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./theme-switcher.module.scss */ \"./components/theme-switcher/theme-switcher.module.scss\");\n/* harmony import */ var _theme_switcher_module_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_theme_switcher_module_scss__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var bem_names__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! bem-names */ \"../node_modules/bem-names/dist/bem-names.js\");\n/* harmony import */ var bem_names__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(bem_names__WEBPACK_IMPORTED_MODULE_2__);\n\n\n\nvar bem = Object(bem_names__WEBPACK_IMPORTED_MODULE_2__[\"bemNamesFactory\"])('theme-switcher');\n\nvar ThemeSwitcher = function ThemeSwitcher() {\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"button\", null, \"Light\"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"button\", null, \"Dark\"));\n};\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (ThemeSwitcher);\n\n//# sourceURL=webpack:///./components/theme-switcher/ThemeSwitcher.js?");
+
+/***/ }),
+
+/***/ "./components/theme-switcher/index.js":
+/*!********************************************!*\
+  !*** ./components/theme-switcher/index.js ***!
+  \********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _ThemeSwitcher__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./ThemeSwitcher */ \"./components/theme-switcher/ThemeSwitcher.js\");\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (_ThemeSwitcher__WEBPACK_IMPORTED_MODULE_0__[\"default\"]);\n\n//# sourceURL=webpack:///./components/theme-switcher/index.js?");
+
+/***/ }),
+
+/***/ "./components/theme-switcher/theme-switcher.module.scss":
+/*!**************************************************************!*\
+  !*** ./components/theme-switcher/theme-switcher.module.scss ***!
+  \**************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=webpack:///./components/theme-switcher/theme-switcher.module.scss?");
 
 /***/ }),
 
