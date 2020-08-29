@@ -80,6 +80,11 @@
   box-sizing: border-box;
   padding: 35px; }
 
+._3guvlwyN5GkCYz3a6PTPiO {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; }
+
 :root {
   --text-color: #333333;
   --bg-default-color: #ffffff;
