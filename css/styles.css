@@ -49,7 +49,13 @@
 
 .s3iTzKFYoofnQ5hg4tD_7 {
   height: 100%;
-  position: relative; }
+  position: relative;
+  overflow: hidden; }
+  ._224cOfhwaaOT7xbpuJuY8F {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: auto; }
   ._3a526NSYgKinhTTDzWa_dS {
     width: 100%; }
 
