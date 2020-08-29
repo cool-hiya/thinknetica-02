@@ -4697,7 +4697,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var reac
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=webpack:///./components/contact-form/contact-form.module.scss?");
+eval("// extracted by mini-css-extract-plugin\nmodule.exports = {\"contact-form\":\"_1dGy4XKqkJ6or8lqWT0ZqU\"};\n\n//# sourceURL=webpack:///./components/contact-form/contact-form.module.scss?");
 
 /***/ }),
 
