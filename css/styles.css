@@ -210,6 +210,20 @@
   padding: 30px;
   position: relative; }
 
+.ik9---Q0S7xSWkimuzsOp {
+  outline: 0;
+  border: 0;
+  position: absolute;
+  z-index: 100;
+  top: -7px;
+  right: -7px;
+  cursor: pointer;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  color: var(--bg-default-color);
+  background-color: var(--bg-primary-color); }
+
 ._2o3ilaTx1QrsohdMvScTc2 {
   outline: 0;
   border: 0;

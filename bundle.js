@@ -5025,7 +5025,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _Mod
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("// extracted by mini-css-extract-plugin\nmodule.exports = {\"modal__overlay\":\"_1doPnzLn7RCcmMgqsmXDCQ\",\"modal__content\":\"_1hZElHibrUGBrJ03jfPRti\"};\n\n//# sourceURL=webpack:///./components/modal/modal.module.scss?");
+eval("// extracted by mini-css-extract-plugin\nmodule.exports = {\"modal__overlay\":\"_1doPnzLn7RCcmMgqsmXDCQ\",\"modal__content\":\"_1hZElHibrUGBrJ03jfPRti\",\"modal__button\":\"ik9---Q0S7xSWkimuzsOp\"};\n\n//# sourceURL=webpack:///./components/modal/modal.module.scss?");
 
 /***/ }),
 
