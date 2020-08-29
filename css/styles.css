@@ -112,7 +112,7 @@
     padding: 5px 10px;
     box-sizing: border-box;
     border: 1px solid var(--shadow-default-color); }
-    ._2167O60-E_fTQC2NImmIRR:focus {
+    ._2167O60-E_fTQC2NImmIRR:focus, ._2167O60-E_fTQC2NImmIRR:hover {
       border-color: var(--bg-accent-color);
       outline: 0; }
 
