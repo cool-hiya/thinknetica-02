@@ -93,7 +93,10 @@
     z-index: 100;
     top: -5px;
     right: -5px;
-    cursor: pointer; }
+    cursor: pointer;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px; }
 
 ._2f1eKyA_zZYWsEoRAX1ytT {
   width: 25px;
