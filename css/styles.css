@@ -286,8 +286,11 @@
   gap: 20px; }
   @media (max-width: 1200px) {
     .XbTtf2fkjcxi0jaeSTmdk {
-      grid-template-columns: repeat(3, 1fr);
-      gap: 20px; } }
+      grid-template-columns: repeat(3, 1fr); } }
+  @media (max-width: 900px) {
+    .XbTtf2fkjcxi0jaeSTmdk {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 10px; } }
 
 ._1CDnW1F8Vxz1vUQ1bBmjtQ {
   padding: 30px;
