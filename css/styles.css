@@ -77,6 +77,10 @@
     width: 100%;
     transition: opacity 1s;
     opacity: 1; }
+  ._2IneWeLdSTsG3nzajuFUC5 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px; }
 
 ._1-6B28hjGaG7Qu22dPdQgC {
   width: 100%;
