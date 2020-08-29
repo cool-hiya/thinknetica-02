@@ -97,6 +97,11 @@
   padding: 30px;
   position: relative; }
 
+._2HOQQ9J1n3tzZ14VLKnnjj {
+  display: grid;
+  grid-template-columns: 100px 1fr;
+  grid-column-gap: 20px; }
+
 ._1dGy4XKqkJ6or8lqWT0ZqU {
   border-top: 2px solid var(--bg-primary-color);
   padding: 30px 0 50px;

@@ -4793,7 +4793,18 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _Cop
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"../node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n\n\nvar Field = function Field(props) {\n  var name = props.name,\n      setValue = props.setValue,\n      label = props.label,\n      InputType = props.type,\n      value = props.value;\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n    className: \"form-group\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"label\", {\n    htmlFor: name\n  }, label), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(InputType, {\n    className: \"form-control\",\n    id: name,\n    value: value,\n    onChange: function onChange(e) {\n      return setValue(name, e);\n    }\n  }));\n};\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (Field);\n\n//# sourceURL=webpack:///./components/field/Field.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"../node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _field_module_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./field.module.scss */ \"./components/field/field.module.scss\");\n/* harmony import */ var _field_module_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_field_module_scss__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var bem_names__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! bem-names */ \"../node_modules/bem-names/dist/bem-names.js\");\n/* harmony import */ var bem_names__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(bem_names__WEBPACK_IMPORTED_MODULE_2__);\n\n\n\nvar bem = Object(bem_names__WEBPACK_IMPORTED_MODULE_2__[\"bemNamesFactory\"])('field');\n\nvar Field = function Field(props) {\n  var name = props.name,\n      setValue = props.setValue,\n      label = props.label,\n      InputType = props.type,\n      value = props.value;\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n    className: _field_module_scss__WEBPACK_IMPORTED_MODULE_1___default.a[bem()]\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"label\", {\n    htmlFor: name,\n    className: _field_module_scss__WEBPACK_IMPORTED_MODULE_1___default.a[bem('label')]\n  }, label), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(InputType, {\n    className: _field_module_scss__WEBPACK_IMPORTED_MODULE_1___default.a[bem('control')],\n    id: name,\n    value: value,\n    onChange: function onChange(e) {\n      return setValue(name, e);\n    }\n  }));\n};\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (Field);\n\n//# sourceURL=webpack:///./components/field/Field.js?");
+
+/***/ }),
+
+/***/ "./components/field/field.module.scss":
+/*!********************************************!*\
+  !*** ./components/field/field.module.scss ***!
+  \********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("// extracted by mini-css-extract-plugin\nmodule.exports = {\"field\":\"_2HOQQ9J1n3tzZ14VLKnnjj\"};\n\n//# sourceURL=webpack:///./components/field/field.module.scss?");
 
 /***/ }),
 
