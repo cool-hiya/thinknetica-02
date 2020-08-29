@@ -117,7 +117,8 @@
     align-items: center;
     justify-content: center;
     cursor: pointer;
-    transition: all 0.3s; }
+    transition: all 0.3s;
+    text-transform: uppercase; }
 
 ._1adeHdGkhZs-8cwUgTEsu0 {
   position: fixed;
