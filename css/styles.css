@@ -295,7 +295,8 @@
     gap: 50px; }
     @media (max-width: 1200px) {
       .UQ-Ds7-rfQeNRWQKh6NvB {
-        grid-template-columns: auto; } }
+        display: flex;
+        flex-direction: column; } }
   ._2_x28I6iUQBaNzTjaUBTqs {
     width: 100%; }
     @media (max-width: 1200px) {
