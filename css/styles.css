@@ -96,7 +96,8 @@
     cursor: pointer;
     border-radius: 50%;
     width: 25px;
-    height: 25px; }
+    height: 25px;
+    color: var(--bg-default-color); }
 
 ._2f1eKyA_zZYWsEoRAX1ytT {
   width: 25px;
