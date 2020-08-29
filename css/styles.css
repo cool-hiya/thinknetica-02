@@ -44,7 +44,8 @@
     box-sizing: border-box;
     display: flex;
     align-items: center;
-    justify-content: flex-end; }
+    justify-content: flex-end;
+    padding: 0 35px; }
 
 ._1JM8lw4HPZeTokOUVim0xz {
   position: fixed;
