@@ -54,6 +54,8 @@
   cursor: pointer; }
   .s3iTzKFYoofnQ5hg4tD_7:hover ._224cOfhwaaOT7xbpuJuY8F {
     opacity: 1; }
+  .s3iTzKFYoofnQ5hg4tD_7:hover ._3a526NSYgKinhTTDzWa_dS {
+    opacity: 0; }
   ._224cOfhwaaOT7xbpuJuY8F {
     position: absolute;
     top: 0;
@@ -63,7 +65,9 @@
     background-color: var(--bg-default-color);
     transition: opacity 1s; }
   ._3a526NSYgKinhTTDzWa_dS {
-    width: 100%; }
+    width: 100%;
+    transition: opacity 1s;
+    opacity: 1; }
 
 ._1WEmKz3js9EbTnMBS4qG03 {
   margin: 0;
