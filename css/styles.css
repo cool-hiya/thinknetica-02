@@ -73,11 +73,9 @@
   display: none;
   font-size: 0;
   width: 50px;
-  height: 50px; }
-  ._1adeHdGkhZs-8cwUgTEsu0 svg {
-    width: 100%;
-    height: 100%;
-    fill: var(--bg-default-color); }
+  height: 50px;
+  border-radius: 50%;
+  border: 2px solid var(--bg-default-color); }
   ._2MWV9cgT7eD8ru1CwWERfN {
     display: block; }
 
