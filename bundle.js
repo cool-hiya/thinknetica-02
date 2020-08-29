@@ -5023,10 +5023,9 @@ eval("// extracted by mini-css-extract-plugin\nmodule.exports = {\"modal-overlay
   !*** ./components/popular/Popular.js ***!
   \***************************************/
 /*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ (function(module, exports) {
 
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"../node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _popular_module_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./popular.module.scss */ \"./components/popular/popular.module.scss\");\n/* harmony import */ var _popular_module_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_popular_module_scss__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var bem_names__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! bem-names */ \"../node_modules/bem-names/dist/bem-names.js\");\n/* harmony import */ var bem_names__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(bem_names__WEBPACK_IMPORTED_MODULE_2__);\n\n\n\nvar bem = Object(bem_names__WEBPACK_IMPORTED_MODULE_2__[\"bemNamesFactory\"])('logo');\n\nvar Popular = function Popular() {\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"p\", null, \"P\");\n};\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (Popular);\n\n//# sourceURL=webpack:///./components/popular/Popular.js?");
+eval("throw new Error(\"Module build failed (from ../node_modules/babel-loader/lib/index.js):\\nSyntaxError: C:\\\\Users\\\\Arina\\\\Desktop\\\\thinknetica-02\\\\src\\\\components\\\\popular\\\\Popular.js: Expected corresponding JSX closing tag for <div> (9:14)\\n\\n\\u001b[0m \\u001b[90m  7 | \\u001b[39m\\u001b[36mconst\\u001b[39m \\u001b[33mPopular\\u001b[39m \\u001b[33m=\\u001b[39m () \\u001b[33m=>\\u001b[39m {\\u001b[0m\\n\\u001b[0m \\u001b[90m  8 | \\u001b[39m    \\u001b[36mreturn\\u001b[39m (\\u001b[0m\\n\\u001b[0m\\u001b[31m\\u001b[1m>\\u001b[22m\\u001b[39m\\u001b[90m  9 | \\u001b[39m        \\u001b[33m<\\u001b[39m\\u001b[33mdiv\\u001b[39m\\u001b[33m>\\u001b[39m\\u001b[33mP\\u001b[39m\\u001b[33m<\\u001b[39m\\u001b[33m/\\u001b[39m\\u001b[33msiv\\u001b[39m\\u001b[33m>\\u001b[39m\\u001b[0m\\n\\u001b[0m \\u001b[90m    | \\u001b[39m              \\u001b[31m\\u001b[1m^\\u001b[22m\\u001b[39m\\u001b[0m\\n\\u001b[0m \\u001b[90m 10 | \\u001b[39m    )\\u001b[33m;\\u001b[39m\\u001b[0m\\n\\u001b[0m \\u001b[90m 11 | \\u001b[39m}\\u001b[0m\\n\\u001b[0m \\u001b[90m 12 | \\u001b[39m\\u001b[0m\\n    at Object._raise (C:\\\\Users\\\\Arina\\\\Desktop\\\\thinknetica-02\\\\node_modules\\\\@babel\\\\parser\\\\lib\\\\index.js:766:17)\\n    at Object.raiseWithData (C:\\\\Users\\\\Arina\\\\Desktop\\\\thinknetica-02\\\\node_modules\\\\@babel\\\\parser\\\\lib\\\\index.js:759:17)\\n    at Object.raise (C:\\\\Users\\\\Arina\\\\Desktop\\\\thinknetica-02\\\\node_modules\\\\@babel\\\\parser\\\\lib\\\\index.js:753:17)\\n    at Object.jsxParseElementAt (C:\\\\Users\\\\Arina\\\\Desktop\\\\thinknetica-02\\\\node_modules\\\\@babel\\\\parser\\\\lib\\\\index.js:4680:16)\\n    at Object.jsxParseElement (C:\\\\Users\\\\Arina\\\\Desktop\\\\thinknetica-02\\\\node_modules\\\\@babel\\\\parser\\\\lib\\\\index.js:4706:17)\\n    at Object.parseExprAtom (C:\\\\Users\\\\Arina\\\\Desktop\\\\thinknetica-02\\\\node_modules\\\\@babel\\\\parser\\\\lib\\\\index.js:4713:19)\\n    at Object.parseExprSubscripts (C:\\\\Users\\\\Arina\\\\Desktop\\\\thinknetica-02\\\\node_modules\\\\@babel\\\\parser\\\\lib\\\\index.js:9844:23)\\n    at Object.parseUpdate (C:\\\\Users\\\\Arina\\\\Desktop\\\\thinknetica-02\\\\node_modules\\\\@babel\\\\parser\\\\lib\\\\index.js:9824:21)\\n    at Object.parseMaybeUnary (C:\\\\Users\\\\Arina\\\\Desktop\\\\thinknetica-02\\\\node_modules\\\\@babel\\\\parser\\\\lib\\\\index.js:9813:17)\\n    at Object.parseExprOps (C:\\\\Users\\\\Arina\\\\Desktop\\\\thinknetica-02\\\\node_modules\\\\@babel\\\\parser\\\\lib\\\\index.js:9683:23)\");\n\n//# sourceURL=webpack:///./components/popular/Popular.js?");
 
 /***/ }),
 
@@ -5039,17 +5038,6 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var reac
 
 "use strict";
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _Popular__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Popular */ \"./components/popular/Popular.js\");\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (_Popular__WEBPACK_IMPORTED_MODULE_0__[\"default\"]);\n\n//# sourceURL=webpack:///./components/popular/index.js?");
-
-/***/ }),
-
-/***/ "./components/popular/popular.module.scss":
-/*!************************************************!*\
-  !*** ./components/popular/popular.module.scss ***!
-  \************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=webpack:///./components/popular/popular.module.scss?");
 
 /***/ }),
 
