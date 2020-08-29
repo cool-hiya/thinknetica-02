@@ -58,3 +58,36 @@
     color: var(--bg-default-color);
     background-color: var(--bg-primary-color);
 }
+
+@mixin reset-button {
+    outline: 0;
+    border: 0;
+    padding: 0;
+    color: inherit;
+    font-size: inherit;
+    background-color: transparent;
+}
+
+@mixin link {
+    color: var(--bg-accent-color);
+    border-bottom: 1px solid var(--bg-accent-color);
+    cursor: pointer;
+}
+
+@mixin tablet {
+    @media (--tablet) {
+        @content;
+    }
+}
+
+@mixin laptop {
+    @media (--laptop) {
+        @content;
+    }
+}
+
+@mixin mobile {
+    @media (--mobile) {
+        @content;
+    }
+}

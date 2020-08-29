@@ -4,6 +4,7 @@ import List from './list';
 import styles from './book-card.module.scss';
 import {bemNamesFactory} from 'bem-names';
 import Popular from '../popular';
+import Authors from '../book-authors';
 
 const bem = bemNamesFactory('book-card');
 
@@ -26,7 +27,7 @@ const BookCard = (props) => {
                     <List.Item label='Language'>{language}</List.Item>
                     <List.Item label='Page count'>{pageCount}</List.Item>
                     <List.Item label='Price'>${expectedPrice}</List.Item>
-                    <List.Item label='Followers'>{authors.map(author => <span key={author.id}>{author.name}</span>)}</List.Item>
+                    <List.Item label='Authors'><Authors authors={authors} /></List.Item>
                 </List.Group>
             </div>
             {onDelete && <button type='button' className={styles[bem('close')]} onClick={() => onDelete()}>X</button>}

@@ -5,6 +5,7 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const GhPagesWebpackPlugin = require('gh-pages-webpack-plugin');
 const webpack = require('webpack')
 const autoprefixer = require('autoprefixer');
+const customMedia = require('postcss-custom-media');
 
 module.exports = {
     context: path.resolve(__dirname, 'src'),
@@ -54,7 +55,16 @@ module.exports = {
                         loader: 'postcss-loader',
                         options: {
                             plugins: [
-                                autoprefixer()
+                                autoprefixer(),
+                                customMedia({
+                                    importFrom: {
+                                        customMedia: {
+                                            '--mobile': '(max-width: 700px)',
+                                            '--tablet': '(max-width: 900px)',
+                                            '--laptop': '(max-width: 1200px)'
+                                        }
+                                    }
+                                })
                             ],
                         }
                     },

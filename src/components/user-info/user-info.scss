@@ -1,3 +1,5 @@
+@import "@styles/mixins.scss";
+
 .user-info {
     display: flex;
     align-items: center;
@@ -14,5 +16,9 @@
         text-transform: uppercase;
         font-size: 12px;
         font-weight: bold;
+
+        @include tablet {
+            display: none;
+        }
     }
 }

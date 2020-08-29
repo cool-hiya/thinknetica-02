@@ -10,5 +10,9 @@
         align-items: center;
         justify-content: flex-end;
         padding: 0 35px;
+
+        @include tablet {
+            justify-content: center;
+        }
     }
 }
