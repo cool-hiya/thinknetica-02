@@ -92,7 +92,8 @@
     position: absolute;
     z-index: 100;
     top: -5px;
-    right: -5px; }
+    right: -5px;
+    cursor: pointer; }
 
 ._2f1eKyA_zZYWsEoRAX1ytT {
   width: 25px;
