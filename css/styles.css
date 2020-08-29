@@ -67,7 +67,7 @@
 .s3iTzKFYoofnQ5hg4tD_7 {
   padding: 10px;
   box-sizing: border-box;
-  border: 1px solid gray;
+  box-shadow: 0 0 3px 0px var(--shadow-default-color);
   height: 100%; }
   ._3a526NSYgKinhTTDzWa_dS {
     width: 100%; }
