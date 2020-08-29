@@ -118,7 +118,8 @@
     justify-content: center;
     cursor: pointer;
     transition: all 0.3s;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    font-size: 12px; }
 
 ._1adeHdGkhZs-8cwUgTEsu0 {
   position: fixed;
