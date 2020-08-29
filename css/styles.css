@@ -306,8 +306,8 @@
         height: 500px;
         -o-object-fit: cover;
            object-fit: cover;
-        -o-object-position: center;
-           object-position: center; } }
+        -o-object-position: center center;
+           object-position: center center; } }
   .mH3oAxa0H4srHcu5y8R7A {
     margin-top: 30px; }
   ._3AoIYUMB_jRZUyjbxWND1t {
