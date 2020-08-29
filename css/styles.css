@@ -209,6 +209,22 @@
   padding: 30px;
   position: relative; }
 
+._2o3ilaTx1QrsohdMvScTc2 {
+  outline: 0;
+  border: 0;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.3s;
+  text-transform: uppercase;
+  font-size: 12px;
+  color: var(--text-minor-color);
+  background-color: var(--bg-accent-color); }
+  ._2o3ilaTx1QrsohdMvScTc2:hover {
+    opacity: 0.8; }
+
 .XbTtf2fkjcxi0jaeSTmdk {
   margin: 0;
   padding: 0;
