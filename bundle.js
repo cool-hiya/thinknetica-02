@@ -4921,7 +4921,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _Loa
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=webpack:///./components/loader/loader.module.scss?");
+eval("// extracted by mini-css-extract-plugin\nmodule.exports = {\"loader\":\"_1-6B28hjGaG7Qu22dPdQgC\"};\n\n//# sourceURL=webpack:///./components/loader/loader.module.scss?");
 
 /***/ }),
 
