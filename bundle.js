@@ -5235,7 +5235,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _Tog
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("// extracted by mini-css-extract-plugin\nmodule.exports = {\"toggle-list\":\"_3_7HUNDpVGw6hA0hHtkGcs\"};\n\n//# sourceURL=webpack:///./components/toggle-list/toggle-list.module.scss?");
+eval("// extracted by mini-css-extract-plugin\nmodule.exports = {\"toggle-list\":\"_3_7HUNDpVGw6hA0hHtkGcs\",\"toggle-list__item\":\"kp_qClgqyAD4iK6hi1ZVD\"};\n\n//# sourceURL=webpack:///./components/toggle-list/toggle-list.module.scss?");
 
 /***/ }),
 
