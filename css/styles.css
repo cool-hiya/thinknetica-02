@@ -22,7 +22,8 @@
   position: -webkit-sticky;
   position: sticky;
   top: 0;
-  box-shadow: 0 0 3px 0px var(--shadow-default-color); }
+  box-shadow: 0 0 3px 0px var(--shadow-default-color);
+  z-index: 4; }
   ._3HUpDHr0d65fi1u8RQiLRv {
     margin: 0 auto;
     width: 100%;
