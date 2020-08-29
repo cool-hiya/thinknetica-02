@@ -284,6 +284,10 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 20px; }
+  @media (max-width: 1200px) {
+    .XbTtf2fkjcxi0jaeSTmdk {
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px; } }
 
 ._1CDnW1F8Vxz1vUQ1bBmjtQ {
   padding: 30px;
