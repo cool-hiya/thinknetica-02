@@ -4555,7 +4555,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var reac
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=webpack:///./components/book-card/book-card.module.scss?");
+eval("// extracted by mini-css-extract-plugin\nmodule.exports = {\"book-card__img\":\"_3a526NSYgKinhTTDzWa_dS\"};\n\n//# sourceURL=webpack:///./components/book-card/book-card.module.scss?");
 
 /***/ }),
 
