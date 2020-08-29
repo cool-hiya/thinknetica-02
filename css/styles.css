@@ -204,7 +204,7 @@
   justify-content: center; }
 
 ._1hZElHibrUGBrJ03jfPRti {
-  background-color: white;
+  background-color: var(--bg-default-color);
   width: 300px;
   padding: 30px;
   position: relative; }
