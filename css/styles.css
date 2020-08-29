@@ -107,7 +107,8 @@
   ._2167O60-E_fTQC2NImmIRR {
     resize: none;
     height: 30px;
-    padding: 5px 10px; }
+    padding: 5px 10px;
+    box-sizing: border-box; }
 
 ._1dGy4XKqkJ6or8lqWT0ZqU {
   border-top: 2px solid var(--bg-primary-color);
