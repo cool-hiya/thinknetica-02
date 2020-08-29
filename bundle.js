@@ -4464,27 +4464,14 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _App
 
 /***/ }),
 
-/***/ "./components/badge/Badge.js":
-/*!***********************************!*\
-  !*** ./components/badge/Badge.js ***!
-  \***********************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"../node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n\n\nvar Badge = function Badge(_ref) {\n  var type = _ref.type,\n      children = _ref.children;\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"span\", {\n    className: \"badge badge-\".concat(type)\n  }, children);\n};\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (Badge);\n\n//# sourceURL=webpack:///./components/badge/Badge.js?");
-
-/***/ }),
-
 /***/ "./components/badge/index.js":
 /*!***********************************!*\
   !*** ./components/badge/index.js ***!
   \***********************************/
 /*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ (function(module, exports) {
 
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _Badge__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Badge */ \"./components/badge/Badge.js\");\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (_Badge__WEBPACK_IMPORTED_MODULE_0__[\"default\"]);\n\n//# sourceURL=webpack:///./components/badge/index.js?");
+eval("throw new Error(\"Module build failed (from ../node_modules/babel-loader/lib/index.js):\\nError: ENOENT: no such file or directory, open 'C:\\\\Users\\\\Arina\\\\Desktop\\\\thinknetica-02\\\\src\\\\components\\\\badge\\\\index.js'\");\n\n//# sourceURL=webpack:///./components/badge/index.js?");
 
 /***/ }),
 
