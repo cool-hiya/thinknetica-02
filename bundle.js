@@ -4931,9 +4931,9 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ 
   !*** ./components/logo/logo.scss ***!
   \***********************************/
 /*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ (function(module, exports) {
 
-eval("// extracted by mini-css-extract-plugin\nmodule.exports = {\"logo__image\":\"_1nHE7IMstWBP5Brmt5MnK-\"};\n\n//# sourceURL=webpack:///./components/logo/logo.scss?");
+eval("throw new Error(\"Module build failed (from ../node_modules/mini-css-extract-plugin/dist/loader.js):\\nModuleBuildError: Module build failed (from ../node_modules/sass-loader/dist/cjs.js):\\nError: ENOENT: no such file or directory, open 'C:\\\\Users\\\\Arina\\\\Desktop\\\\thinknetica-02\\\\src\\\\components\\\\logo\\\\logo.scss'\\n    at C:\\\\Users\\\\Arina\\\\Desktop\\\\thinknetica-02\\\\node_modules\\\\webpack\\\\lib\\\\NormalModule.js:316:20\\n    at C:\\\\Users\\\\Arina\\\\Desktop\\\\thinknetica-02\\\\node_modules\\\\loader-runner\\\\lib\\\\LoaderRunner.js:367:11\\n    at Array.<anonymous> (C:\\\\Users\\\\Arina\\\\Desktop\\\\thinknetica-02\\\\node_modules\\\\loader-runner\\\\lib\\\\LoaderRunner.js:203:19)\\n    at Storage.finished (C:\\\\Users\\\\Arina\\\\Desktop\\\\thinknetica-02\\\\node_modules\\\\enhanced-resolve\\\\lib\\\\CachedInputFileSystem.js:55:16)\\n    at ReadFileContext.<anonymous> (C:\\\\Users\\\\Arina\\\\Desktop\\\\thinknetica-02\\\\node_modules\\\\enhanced-resolve\\\\lib\\\\CachedInputFileSystem.js:91:9)\\n    at ReadFileContext.callback (C:\\\\Users\\\\Arina\\\\Desktop\\\\thinknetica-02\\\\node_modules\\\\graceful-fs\\\\graceful-fs.js:123:16)\\n    at FSReqCallback.readFileAfterOpen [as oncomplete] (fs.js:261:13)\");\n\n//# sourceURL=webpack:///./components/logo/logo.scss?");
 
 /***/ }),
 
