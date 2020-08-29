@@ -80,6 +80,16 @@
   grid-template-columns: repeat(4, 1fr);
   gap: 20px; }
 
+.V7zqHbXRpY79bzI94-VO6 {
+  resize: none;
+  height: 35px;
+  padding: 9px;
+  box-sizing: border-box;
+  border: 1px solid var(--shadow-default-color); }
+  .V7zqHbXRpY79bzI94-VO6:focus, .V7zqHbXRpY79bzI94-VO6:hover {
+    border-color: var(--bg-accent-color);
+    outline: 0; }
+
 ._3B_9-6jJCQwCxfhQpG04SR {
   outline: 0;
   border: 0;
