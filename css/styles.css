@@ -34,7 +34,8 @@
 
 .ouVniKxIBfPVMKKLuxqfM {
   box-shadow: 0 0 3px 0px var(--shadow-default-color);
-  background-color: var(--shadow-primary-color); }
+  background-color: var(--shadow-primary-color);
+  margin-top: auto; }
   ._3FL66efWfygSNNX0fAqgMC {
     margin: 0 auto;
     max-width: 1200px;
