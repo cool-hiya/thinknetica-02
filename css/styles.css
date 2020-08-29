@@ -59,7 +59,9 @@
     opacity: 0; }
   .lXgAucM-gOBhtHRdrVY8X {
     margin: 0 0 20px;
-    font-weight: normal; }
+    font-weight: normal;
+    display: flex;
+    justify-content: space-between; }
   ._224cOfhwaaOT7xbpuJuY8F {
     position: absolute;
     top: 0;
