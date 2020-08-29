@@ -4555,7 +4555,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var reac
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("// extracted by mini-css-extract-plugin\nmodule.exports = {\"book-card\":\"s3iTzKFYoofnQ5hg4tD_7\",\"book-card__content\":\"_224cOfhwaaOT7xbpuJuY8F\",\"book-card__img\":\"_3a526NSYgKinhTTDzWa_dS\",\"book-card__title\":\"lXgAucM-gOBhtHRdrVY8X\",\"book-card__list\":\"_2IneWeLdSTsG3nzajuFUC5\"};\n\n//# sourceURL=webpack:///./components/book-card/book-card.module.scss?");
+eval("// extracted by mini-css-extract-plugin\nmodule.exports = {\"book-card\":\"s3iTzKFYoofnQ5hg4tD_7\",\"book-card__content\":\"_224cOfhwaaOT7xbpuJuY8F\",\"book-card__img\":\"_3a526NSYgKinhTTDzWa_dS\",\"book-card__title\":\"lXgAucM-gOBhtHRdrVY8X\",\"book-card__list\":\"_2IneWeLdSTsG3nzajuFUC5\",\"book-card__list-item\":\"_1G0eOOWiI6Wer6qYaS2xj6\"};\n\n//# sourceURL=webpack:///./components/book-card/book-card.module.scss?");
 
 /***/ }),
 
