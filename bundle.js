@@ -5049,7 +5049,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _Pop
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=webpack:///./components/popular/popular.module.scss?");
+eval("// extracted by mini-css-extract-plugin\nmodule.exports = {\"popular\":\"_2f1eKyA_zZYWsEoRAX1ytT\"};\n\n//# sourceURL=webpack:///./components/popular/popular.module.scss?");
 
 /***/ }),
 
