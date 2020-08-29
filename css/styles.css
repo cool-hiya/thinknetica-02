@@ -295,7 +295,7 @@
     gap: 50px; }
     @media (max-width: 1200px) {
       .UQ-Ds7-rfQeNRWQKh6NvB {
-        grid-template-columns: 1fr; } }
+        grid-template-columns: auto; } }
   ._2_x28I6iUQBaNzTjaUBTqs {
     width: 100%; }
   .mH3oAxa0H4srHcu5y8R7A {
