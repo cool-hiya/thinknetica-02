@@ -302,7 +302,10 @@
     width: 100%; }
     @media (max-width: 1200px) {
       ._2_x28I6iUQBaNzTjaUBTqs {
-        max-width: 400px; } }
+        width: 100%;
+        height: 300px;
+        -o-object-fit: cover;
+           object-fit: cover; } }
   .mH3oAxa0H4srHcu5y8R7A {
     margin-top: 30px; }
   ._3AoIYUMB_jRZUyjbxWND1t {
