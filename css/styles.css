@@ -12,7 +12,7 @@
     text-transform: uppercase;
     font-size: 12px;
     font-weight: bold; }
-    @media (max-width: 768px) {
+    @media (max-width: 900px) {
       ._2vHBB0J4t0cKpN12BLGehG {
         display: none; } }
 
@@ -186,7 +186,7 @@
   @media (max-width: 1200px) {
     ._1WEmKz3js9EbTnMBS4qG03 {
       grid-template-columns: repeat(3, 1fr); } }
-  @media (max-width: 768px) {
+  @media (max-width: 900px) {
     ._1WEmKz3js9EbTnMBS4qG03 {
       grid-template-columns: repeat(2, 1fr); } }
 
