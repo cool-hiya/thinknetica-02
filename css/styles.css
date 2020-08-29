@@ -81,7 +81,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr; }
   ._1G0eOOWiI6Wer6qYaS2xj6 {
-    box-shadow: inset 0 0 0 1px var(--shadow-default-color); }
+    box-shadow: 0 0 0 1px var(--shadow-default-color); }
 
 ._1-6B28hjGaG7Qu22dPdQgC {
   width: 100%;
