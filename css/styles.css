@@ -295,7 +295,8 @@
     gap: 50px; }
     @media (max-width: 1200px) {
       .UQ-Ds7-rfQeNRWQKh6NvB {
-        grid-template-columns: 1fr; } }
+        grid-template-columns: 1fr;
+        gap: 0; } }
   .DgRR93OmcybYE7nq9EHw4 {
     width: 100%; }
   ._2_x28I6iUQBaNzTjaUBTqs {
@@ -310,9 +311,6 @@
            object-position: center center; } }
   .mH3oAxa0H4srHcu5y8R7A {
     margin-top: 30px; }
-    @media (max-width: 1200px) {
-      .mH3oAxa0H4srHcu5y8R7A {
-        margin-top: 10px; } }
   ._3AoIYUMB_jRZUyjbxWND1t {
     resize: none;
     height: 35px;
