@@ -100,7 +100,7 @@
 ._2HOQQ9J1n3tzZ14VLKnnjj {
   display: grid;
   grid-template-columns: 100px 1fr;
-  gap: 30px; }
+  grid-gap: 20px; }
 
 ._1dGy4XKqkJ6or8lqWT0ZqU {
   border-top: 2px solid var(--bg-primary-color);
