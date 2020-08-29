@@ -310,6 +310,9 @@
            object-position: center center; } }
   .mH3oAxa0H4srHcu5y8R7A {
     margin-top: 30px; }
+    @media (max-width: 1200px) {
+      .mH3oAxa0H4srHcu5y8R7A {
+        margin-top: 10px; } }
   ._3AoIYUMB_jRZUyjbxWND1t {
     resize: none;
     height: 35px;
