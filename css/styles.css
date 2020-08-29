@@ -78,7 +78,8 @@
   margin: 0 auto;
   max-width: 1200px;
   box-sizing: border-box;
-  padding: 35px; }
+  padding: 35px;
+  background-color: var(--bg-default-color); }
 
 ._3guvlwyN5GkCYz3a6PTPiO {
   display: flex;
