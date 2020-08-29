@@ -91,7 +91,9 @@
     outline: 0;
     border: 0;
     position: absolute;
-    z-index: 100; }
+    z-index: 100;
+    top: -5px;
+    right: -5px; }
 
 ._2f1eKyA_zZYWsEoRAX1ytT {
   width: 25px;
