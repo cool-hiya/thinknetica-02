@@ -65,14 +65,13 @@
   position: relative; }
 
 ._1adeHdGkhZs-8cwUgTEsu0 {
-  padding: 15px;
-  border: 1px solid gray;
   position: fixed;
   bottom: 70px;
   right: 40px;
   z-index: 1000;
   cursor: pointer;
-  display: none; }
+  display: none;
+  font-size: 0; }
   ._2MWV9cgT7eD8ru1CwWERfN {
     display: block; }
 
