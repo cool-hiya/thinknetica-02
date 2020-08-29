@@ -258,7 +258,8 @@
     font-size: inherit;
     background-color: transparent;
     color: var(--bg-accent-color);
-    border-bottom: 1px solid var(--bg-accent-color); }
+    border-bottom: 1px solid var(--bg-accent-color);
+    cursor: pointer; }
 
 .XbTtf2fkjcxi0jaeSTmdk {
   margin: 0;
