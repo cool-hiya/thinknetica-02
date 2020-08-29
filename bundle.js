@@ -4898,7 +4898,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _Hea
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"../node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _logo_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./logo.png */ \"./components/logo/logo.png\");\n/* harmony import */ var _logo_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./logo.scss */ \"./components/logo/logo.scss\");\n/* harmony import */ var _logo_scss__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_logo_scss__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var bem_names__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! bem-names */ \"../node_modules/bem-names/dist/bem-names.js\");\n/* harmony import */ var bem_names__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(bem_names__WEBPACK_IMPORTED_MODULE_3__);\n\n\n\n\nvar bem = Object(bem_names__WEBPACK_IMPORTED_MODULE_3__[\"bemNamesFactory\"])('logo');\n\nvar Logo = function Logo() {\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"a\", {\n    href: \"#\",\n    className: _logo_scss__WEBPACK_IMPORTED_MODULE_2___default.a[bem()]\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"img\", {\n    className: _logo_scss__WEBPACK_IMPORTED_MODULE_2___default.a[bem('image')],\n    src: _logo_png__WEBPACK_IMPORTED_MODULE_1__[\"default\"]\n  }));\n};\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (Logo);\n\n//# sourceURL=webpack:///./components/logo/Logo.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"../node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _logo_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./logo.png */ \"./components/logo/logo.png\");\n/* harmony import */ var _logo_module_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./logo.module.scss */ \"./components/logo/logo.module.scss\");\n/* harmony import */ var _logo_module_scss__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_logo_module_scss__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var bem_names__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! bem-names */ \"../node_modules/bem-names/dist/bem-names.js\");\n/* harmony import */ var bem_names__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(bem_names__WEBPACK_IMPORTED_MODULE_3__);\n\n\n\n\nvar bem = Object(bem_names__WEBPACK_IMPORTED_MODULE_3__[\"bemNamesFactory\"])('logo');\n\nvar Logo = function Logo() {\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"a\", {\n    href: \"#\",\n    className: _logo_module_scss__WEBPACK_IMPORTED_MODULE_2___default.a[bem()]\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"img\", {\n    className: _logo_module_scss__WEBPACK_IMPORTED_MODULE_2___default.a[bem('image')],\n    src: _logo_png__WEBPACK_IMPORTED_MODULE_1__[\"default\"]\n  }));\n};\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (Logo);\n\n//# sourceURL=webpack:///./components/logo/Logo.js?");
 
 /***/ }),
 
@@ -4914,6 +4914,17 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _Log
 
 /***/ }),
 
+/***/ "./components/logo/logo.module.scss":
+/*!******************************************!*\
+  !*** ./components/logo/logo.module.scss ***!
+  \******************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("// extracted by mini-css-extract-plugin\nmodule.exports = {\"logo__image\":\"ua2wjmgtpV4-C4OGyOML8\"};\n\n//# sourceURL=webpack:///./components/logo/logo.module.scss?");
+
+/***/ }),
+
 /***/ "./components/logo/logo.png":
 /*!**********************************!*\
   !*** ./components/logo/logo.png ***!
@@ -4923,17 +4934,6 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _Log
 
 "use strict";
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"images/e694b9eed3c0739f80f1cc5665becb2c.png\");\n\n//# sourceURL=webpack:///./components/logo/logo.png?");
-
-/***/ }),
-
-/***/ "./components/logo/logo.scss":
-/*!***********************************!*\
-  !*** ./components/logo/logo.scss ***!
-  \***********************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-eval("throw new Error(\"Module build failed (from ../node_modules/mini-css-extract-plugin/dist/loader.js):\\nModuleBuildError: Module build failed (from ../node_modules/sass-loader/dist/cjs.js):\\nError: ENOENT: no such file or directory, open 'C:\\\\Users\\\\Arina\\\\Desktop\\\\thinknetica-02\\\\src\\\\components\\\\logo\\\\logo.scss'\\n    at C:\\\\Users\\\\Arina\\\\Desktop\\\\thinknetica-02\\\\node_modules\\\\webpack\\\\lib\\\\NormalModule.js:316:20\\n    at C:\\\\Users\\\\Arina\\\\Desktop\\\\thinknetica-02\\\\node_modules\\\\loader-runner\\\\lib\\\\LoaderRunner.js:367:11\\n    at Array.<anonymous> (C:\\\\Users\\\\Arina\\\\Desktop\\\\thinknetica-02\\\\node_modules\\\\loader-runner\\\\lib\\\\LoaderRunner.js:203:19)\\n    at Storage.finished (C:\\\\Users\\\\Arina\\\\Desktop\\\\thinknetica-02\\\\node_modules\\\\enhanced-resolve\\\\lib\\\\CachedInputFileSystem.js:55:16)\\n    at ReadFileContext.<anonymous> (C:\\\\Users\\\\Arina\\\\Desktop\\\\thinknetica-02\\\\node_modules\\\\enhanced-resolve\\\\lib\\\\CachedInputFileSystem.js:91:9)\\n    at ReadFileContext.callback (C:\\\\Users\\\\Arina\\\\Desktop\\\\thinknetica-02\\\\node_modules\\\\graceful-fs\\\\graceful-fs.js:123:16)\\n    at FSReqCallback.readFileAfterOpen [as oncomplete] (fs.js:261:13)\");\n\n//# sourceURL=webpack:///./components/logo/logo.scss?");
 
 /***/ }),
 
