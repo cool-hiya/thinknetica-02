@@ -111,7 +111,9 @@
   margin-top: 60px; }
   .lxcRT1RHf_hgvyilTG44i {
     max-width: 500px;
-    margin: 0 auto; }
+    margin: 0 auto;
+    display: grid;
+    gap: 30px; }
   ._2zSrdPj6qWun_EcTBHnal9 {
     margin: 0 0 30px;
     text-transform: uppercase;
