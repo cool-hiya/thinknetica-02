@@ -6,6 +6,7 @@
     position: sticky;
     top: 0;
     box-shadow: 0 0 3px 0px var(--shadow-default-color);
+    z-index: 4;
 
     &__container {
         @include centerer();
@@ -13,5 +14,6 @@
         align-items: center;
         justify-content: space-between;
         height: 60px;
+        padding-right: 35px;
     }
 }

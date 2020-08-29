@@ -17,15 +17,8 @@ const BookAppContainer = () => {
     return (
         <React.Fragment>
             <SearchForm onSubmit={search} />
-
-            <div className='row'>
-                <div className='col-lg-12'>
-                    {selectedBook ? <BookDetails book={selectedBook} /> : null}
-                </div>
-            </div>
-
+            {selectedBook ? <BookDetails book={selectedBook} /> : null}
             <Catalog isLoading={!books} books={books} onSelect={setSelectedBook} />
-
         </React.Fragment>
     );
 }

@@ -4,6 +4,7 @@ import styles from './main-container.module.scss';
 import {bemNamesFactory} from 'bem-names';
 
 const bem = bemNamesFactory('main-container');
+
 const MainContainer = ({children}) => {
     return (
         <main className={styles[bem()]}>

@@ -1,6 +1,6 @@
 import React from 'react';
 import Copyright from '../copyright';
-import styles from './footer.modules.scss';
+import styles from './footer.module.scss';
 import { bemNamesFactory } from 'bem-names';
  
 const bem = bemNamesFactory('footer');

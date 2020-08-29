@@ -2,12 +2,13 @@
 
 .footer {
     box-shadow: 0 0 3px 0px var(--shadow-default-color);
-    background-color: var(--shadow-primary-color);
+    background-color: var(--bg-default-color);
 
     &__container {
         @include centerer();
         display: flex;
         align-items: center;
         justify-content: flex-end;
+        padding: 0 35px;
     }
 }

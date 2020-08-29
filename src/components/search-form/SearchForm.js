@@ -1,4 +1,8 @@
 import React from 'react';
+import styles from './search-form.module.scss';
+import {bemNamesFactory} from 'bem-names';
+
+const bem = bemNamesFactory('search-form');
 
 class SearchForm extends React.Component {
     constructor(props) {
@@ -14,9 +18,9 @@ class SearchForm extends React.Component {
 
     render() {
         return (
-            <form className='d-flex' onSubmit={(e) => this.onSubmit(e)}>
-                <input type='search' className="form-control" placeholder='Search...' ref={this.searchInput} />
-                <button type='submit' className='btn btn-primary'>Search</button>
+            <form className={styles[bem()]} onSubmit={(e) => this.onSubmit(e)}>
+                <input type='search' className={styles[bem('control')]} placeholder='Search...' ref={this.searchInput} />
+                <button type='submit' className={styles[bem('button')]}>Search</button>
             </form>
         )
     }
