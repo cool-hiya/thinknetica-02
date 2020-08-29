@@ -192,6 +192,23 @@
     ._3B_9-6jJCQwCxfhQpG04SR:hover {
       opacity: 0.8; }
 
+._1doPnzLn7RCcmMgqsmXDCQ {
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.5);
+  top: 0;
+  left: 0;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  justify-content: center; }
+
+._1hZElHibrUGBrJ03jfPRti {
+  background-color: white;
+  width: 300px;
+  padding: 30px;
+  position: relative; }
+
 ._2o3ilaTx1QrsohdMvScTc2 {
   outline: 0;
   border: 0;
