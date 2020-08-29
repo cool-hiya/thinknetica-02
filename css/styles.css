@@ -60,7 +60,7 @@
     left: 0;
     height: auto;
     opacity: 0;
-    background-color: var(--bg-default-color); }
+    background-color: rgba(var(--bg-default-color), 0.5); }
   ._3a526NSYgKinhTTDzWa_dS {
     width: 100%; }
 
