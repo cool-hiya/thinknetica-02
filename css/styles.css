@@ -110,7 +110,8 @@
     resize: none;
     height: 35px;
     padding: 5px 10px;
-    box-sizing: border-box; }
+    box-sizing: border-box;
+    border: 1px solid var(--shadow-default-color); }
 
 ._1dGy4XKqkJ6or8lqWT0ZqU {
   border-top: 2px solid var(--bg-primary-color);
