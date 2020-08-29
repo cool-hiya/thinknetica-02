@@ -186,6 +186,9 @@
   @media (max-width: 1200px) {
     ._1WEmKz3js9EbTnMBS4qG03 {
       grid-template-columns: repeat(3, 1fr); } }
+  @media (max-width: 768px) {
+    ._1WEmKz3js9EbTnMBS4qG03 {
+      grid-template-columns: repeat(2, 1fr); } }
 
 .NWX0-eufkg7_MI0MzV-7n {
   display: grid;
