@@ -183,6 +183,9 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 20px; }
+  @media (max-width: 1200px) {
+    ._1WEmKz3js9EbTnMBS4qG03 {
+      grid-template-columns: repeat(3, 1fr); } }
 
 .NWX0-eufkg7_MI0MzV-7n {
   display: grid;
