@@ -5247,7 +5247,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _The
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("// extracted by mini-css-extract-plugin\nmodule.exports = {\"theme-switcher__button\":\"_2ndAbFRSSXaasBl4z6hQxo\"};\n\n//# sourceURL=webpack:///./components/theme-switcher/theme-switcher.module.scss?");
+eval("// extracted by mini-css-extract-plugin\nmodule.exports = {\"theme-switcher\":\"_30ccvHrcWh9ReJYUtBr99w\",\"theme-switcher__button\":\"_2ndAbFRSSXaasBl4z6hQxo\"};\n\n//# sourceURL=webpack:///./components/theme-switcher/theme-switcher.module.scss?");
 
 /***/ }),
 
