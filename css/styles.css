@@ -80,6 +80,22 @@
   grid-template-columns: repeat(4, 1fr);
   gap: 20px; }
 
+._3B_9-6jJCQwCxfhQpG04SR {
+  outline: 0;
+  border: 0;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.3s;
+  text-transform: uppercase;
+  font-size: 12px;
+  color: var(--text-minor-color);
+  background-color: var(--bg-accent-color); }
+  ._3B_9-6jJCQwCxfhQpG04SR:hover {
+    opacity: 0.9; }
+
 ._1JM8lw4HPZeTokOUVim0xz {
   position: fixed;
   background-color: rgba(0, 0, 0, 0.5);
