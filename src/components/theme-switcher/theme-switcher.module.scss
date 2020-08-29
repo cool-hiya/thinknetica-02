@@ -1,0 +1,10 @@
+@import "@styles/mixins.scss";
+
+.theme-switcher {
+    display: flex;
+
+    &__button {
+        @include button();
+        width: 130px;
+    }
+}

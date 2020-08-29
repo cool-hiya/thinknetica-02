@@ -24,6 +24,7 @@
     font-size: 12px;
     color: var(--text-minor-color);
     background-color: var(--bg-accent-color);
+    font-weight: bold;
 
     &:hover {
         opacity: 0.8;
@@ -36,11 +37,17 @@
     padding: 9px;
     box-sizing: border-box;
     border: 1px solid var(--shadow-default-color);
+    background-color: transparent;
+    color: inherit;
 
     &:focus,
     &:hover {
         border-color: var(--bg-accent-color);
         outline: 0;
+    }
+
+    &::placeholder {
+        color: inherit;
     }
 }
 
@@ -55,7 +62,7 @@
     border-radius: 50%;
     width: 25px;
     height: 25px;
-    color: var(--bg-default-color);
+    color: inherit;
     background-color: var(--bg-primary-color);
 }
 
