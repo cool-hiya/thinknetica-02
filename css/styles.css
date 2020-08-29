@@ -78,15 +78,16 @@
 
 ._3BUilpdB_KDcL2xWtrX6-9 {
   flex-grow: 1;
-  display: flex; }
+  display: flex;
+  flex-direction: column; }
   ._3AeUvnqapMJGr_pQPVk3Yo {
     margin: 0 auto;
     width: 100%;
     max-width: 1200px;
     box-sizing: border-box;
-    height: 100%;
     padding: 35px;
-    background-color: var(--bg-default-color); }
+    background-color: var(--bg-default-color);
+    flex-grow: 1; }
 
 ._3guvlwyN5GkCYz3a6PTPiO {
   display: flex;
