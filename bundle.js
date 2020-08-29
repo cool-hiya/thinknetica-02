@@ -4721,7 +4721,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _But
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("// extracted by mini-css-extract-plugin\nmodule.exports = {\"contact-form\":\"_1dGy4XKqkJ6or8lqWT0ZqU\",\"contact-form__form\":\"lxcRT1RHf_hgvyilTG44i\",\"contact-form__title\":\"_2zSrdPj6qWun_EcTBHnal9\"};\n\n//# sourceURL=webpack:///./components/contact-form/contact-form.module.scss?");
+eval("// extracted by mini-css-extract-plugin\nmodule.exports = {\"contact-form\":\"_1dGy4XKqkJ6or8lqWT0ZqU\",\"contact-form__form\":\"lxcRT1RHf_hgvyilTG44i\",\"contact-form__title\":\"_2zSrdPj6qWun_EcTBHnal9\",\"contact-form__button\":\"_10GFaNcyimfzMtoNT61wm0\"};\n\n//# sourceURL=webpack:///./components/contact-form/contact-form.module.scss?");
 
 /***/ }),
 
