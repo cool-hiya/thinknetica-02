@@ -101,6 +101,8 @@
   display: grid;
   grid-template-columns: 100px 1fr;
   grid-gap: 20px; }
+  ._1eVUsjZ-RlKucDqkcj9x9D {
+    text-transform: uppercase; }
 
 ._1dGy4XKqkJ6or8lqWT0ZqU {
   border-top: 2px solid var(--bg-primary-color);
