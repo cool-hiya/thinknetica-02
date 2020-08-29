@@ -4553,9 +4553,9 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var reac
   !*** ./components/book-card/book-card.module.scss ***!
   \****************************************************/
 /*! no static exports found */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
-eval("throw new Error(\"Module build failed (from ../node_modules/mini-css-extract-plugin/dist/loader.js):\\nModuleBuildError: Module build failed (from ../node_modules/sass-loader/dist/cjs.js):\\nSassError: argument `$color` of `rgba($color, $alpha)` must be a color\\n        on line 19 of C:\\\\Users\\\\Arina\\\\Desktop\\\\thinknetica-02\\\\src\\\\components\\\\book-card\\\\book-card.module.scss, in function `rgba`\\n        from line 19 of stdin\\n>>         background-color: rgba(-var(--bg-default-color), 0.5);\\r\\n   --------------------------^\\n\\n    at C:\\\\Users\\\\Arina\\\\Desktop\\\\thinknetica-02\\\\node_modules\\\\webpack\\\\lib\\\\NormalModule.js:316:20\\n    at C:\\\\Users\\\\Arina\\\\Desktop\\\\thinknetica-02\\\\node_modules\\\\loader-runner\\\\lib\\\\LoaderRunner.js:367:11\\n    at C:\\\\Users\\\\Arina\\\\Desktop\\\\thinknetica-02\\\\node_modules\\\\loader-runner\\\\lib\\\\LoaderRunner.js:233:18\\n    at context.callback (C:\\\\Users\\\\Arina\\\\Desktop\\\\thinknetica-02\\\\node_modules\\\\loader-runner\\\\lib\\\\LoaderRunner.js:111:13)\\n    at Object.callback (C:\\\\Users\\\\Arina\\\\Desktop\\\\thinknetica-02\\\\node_modules\\\\sass-loader\\\\dist\\\\index.js:73:7)\\n    at Object.done [as callback] (C:\\\\Users\\\\Arina\\\\Desktop\\\\thinknetica-02\\\\node_modules\\\\neo-async\\\\async.js:8069:18)\\n    at options.error (C:\\\\Users\\\\Arina\\\\Desktop\\\\thinknetica-02\\\\node_modules\\\\node-sass\\\\lib\\\\index.js:294:32)\");\n\n//# sourceURL=webpack:///./components/book-card/book-card.module.scss?");
+eval("// extracted by mini-css-extract-plugin\nmodule.exports = {\"book-card\":\"s3iTzKFYoofnQ5hg4tD_7\",\"book-card__content\":\"_224cOfhwaaOT7xbpuJuY8F\",\"book-card__img\":\"_3a526NSYgKinhTTDzWa_dS\"};\n\n//# sourceURL=webpack:///./components/book-card/book-card.module.scss?");
 
 /***/ }),
 
