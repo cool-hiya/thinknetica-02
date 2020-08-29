@@ -1,4 +1,8 @@
 import React, {Component} from 'react';
+import styles from './toggle-list.module.scss';
+import {bemNamesFactory} from 'bem-names';
+
+const bem = bemNamesFactory('toggle-list');
 
 class ToggleList extends Component {
     constructor(props) {
@@ -19,14 +23,14 @@ class ToggleList extends Component {
         }
 
         return (
-            <button className='btn btn-primary' onClick={() => this.onToggle()}>{this.state.all ? 'Hide' : 'Show'}</button>
+            <button className={styles[bem('button')]} onClick={() => this.onToggle()}>{this.state.all ? 'Hide' : 'Show'}</button>
         )
     }
 
     renderList(elements) {
         return elements.map(({name, id}) => {
             return (
-                <p key={id}>{name}</p>
+                <p className={styles[bem('item')]} key={id}>{name}</p>
             )
         })
     }
@@ -40,7 +44,7 @@ class ToggleList extends Component {
         }
 
         return (
-            <div>
+            <div className={styles[bem()]}>
                 {this.renderList(elements)}
                 {this.renderShowMoreButton(showMoreButton)}
             </div>

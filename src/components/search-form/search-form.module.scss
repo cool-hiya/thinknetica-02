@@ -1,0 +1,16 @@
+@import "@styles/mixins.scss";
+
+.search-form {
+    display: grid;
+    grid-template-columns: 1fr 100px;
+    gap: 15px;
+    margin-bottom: 30px;
+
+    &__control {
+        @include control;
+    }
+
+    &__button {
+        @include button;
+    }
+}

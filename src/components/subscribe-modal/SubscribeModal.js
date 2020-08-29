@@ -1,5 +1,9 @@
 import React, {Component} from 'react';
 import Modal from '../modal';
+import styles from './subscribe-modal.module.scss';
+import {bemNamesFactory} from 'bem-names';
+
+const bem = bemNamesFactory('subscribe-modal');
 
 class SubscribeModal extends Component {
 
@@ -19,9 +23,9 @@ class SubscribeModal extends Component {
 
         return (
             <React.Fragment>
-                <button className='btn btn-primary' onClick={() => this.toggle()}>Subscribe</button>
+                <button className={styles[bem('button')]} onClick={() => this.toggle()}>Subscribe</button>
                 <Modal isOpen={isOpen} onClose={() => this.toggle()}>
-                    Hello
+                    Hello!
                 </Modal>
             </React.Fragment>
         );

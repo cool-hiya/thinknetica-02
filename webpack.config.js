@@ -5,6 +5,7 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const GhPagesWebpackPlugin = require('gh-pages-webpack-plugin');
 const webpack = require('webpack')
 const autoprefixer = require('autoprefixer');
+const customMedia = require('postcss-custom-media');
 
 module.exports = {
     context: path.resolve(__dirname, 'src'),
@@ -22,6 +23,10 @@ module.exports = {
     },
     resolve: {
         extensions: ['.js'],
+        alias: {
+            '@styles': path.resolve(__dirname, 'src/styles/')
+        }
+
     },
     module: {
         rules: [
@@ -42,18 +47,55 @@ module.exports = {
                     {
                         loader: 'css-loader',
                         options: {
-                            importLoaders: 1
+                            importLoaders: 1,
+                            modules: true
                         }
                     },
                     {
                         loader: 'postcss-loader',
                         options: {
                             plugins: [
-                                autoprefixer()
+                                autoprefixer(),
+                                customMedia({
+                                    importFrom: {
+                                        customMedia: {
+                                            '--mobile': '(max-width: 700px)',
+                                            '--tablet': '(max-width: 900px)',
+                                            '--laptop': '(max-width: 1200px)'
+                                        }
+                                    }
+                                })
                             ],
                         }
                     },
                     'sass-loader'
+                ],
+            },
+            {
+                test: /\.(png|jpe?g|svg)$/i,
+                use: [
+                    {
+                        loader: 'file-loader',
+                        options: {
+                            outputPath: './images'
+                        }
+                    },
+                    {
+                        loader: 'image-webpack-loader',
+                        options: {
+                            mozjpeg: {
+                                progressive: true,
+                                quality: 65
+                            },
+                            optipng: {
+                                enabled: false,
+                            },
+                            pngquant: {
+                                quality: [0.65, 0.90],
+                                speed: 4
+                            }
+                        }
+                    },
                 ],
             }
         ]

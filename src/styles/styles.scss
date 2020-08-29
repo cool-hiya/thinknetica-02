@@ -1,0 +1,23 @@
+:root {
+    --text-color: #333333;
+    --text-minor-color: #ffffff;
+    --bg-default-color: #ffffff;
+    --bg-primary-color: #18AFA2;
+    --bg-accent-color: #971C53;
+    --shadow-default-color: #949494;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    color: var(--text-color);
+    font-family: Helvetica, sans-serif;
+    background-color: var(--bg-primary-color);
+    min-width: 500px;
+}
+

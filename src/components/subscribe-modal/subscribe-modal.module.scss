@@ -1,0 +1,9 @@
+@import "@styles/mixins.scss";
+
+.subscribe-modal {
+    &__button {
+        @include button();
+        width: 100%;
+        margin-top: 30px;
+    }
+}

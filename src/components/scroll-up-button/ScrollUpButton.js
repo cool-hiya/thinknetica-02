@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import throttle from '../../utils/throttle';
-import './scroll-up-button.scss';
+import styles from './scroll-up-button.module.scss';
+import classNames from 'classNames';
 
 class ScrollUpButton extends Component {
     constructor(props) {
@@ -36,11 +37,11 @@ class ScrollUpButton extends Component {
 
     render() {
         const {visible} = this.state;
-        let scrollUpClass = 'scrollup';
 
-        if (visible) {
-            scrollUpClass += ' active';
-        }
+        let scrollUpClass = classNames({
+            [styles['scrollup']]: true,
+            [styles['scrollup--active']]: visible
+        });
 
         return (
             <a className={scrollUpClass} onClick={(e) => this.scrollUp(e)}>Scroll up</a>

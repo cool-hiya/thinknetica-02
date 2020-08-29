@@ -1,5 +1,9 @@
 import React, {PureComponent} from 'react';
-import PromoBookCard from '../promo-book-card';
+import BookCard from '../book-card';
+import styles from './recommended.module.scss';
+import {bemNamesFactory} from 'bem-names';
+
+const bem = bemNamesFactory('recommended');
 
 class Recommended extends PureComponent {
 
@@ -12,7 +16,7 @@ class Recommended extends PureComponent {
     }
 
     onBookDeleted(id) {
-        this.setState((state, props) => {
+        this.setState((state) => {
             return {
                 books: state.books.filter(book => id !== book.id)
             }
@@ -22,9 +26,9 @@ class Recommended extends PureComponent {
     renderBooks(books, max) {
         return books.slice(0, max).map(book => {
             return (
-                <div className='col-lg-3' key={book.id}>
-                    <PromoBookCard book={book} onDelete={() => this.onBookDeleted(book.id)} />
-                </div>)
+                <li key={book.id}>
+                    <BookCard book={book} onDelete={() => this.onBookDeleted(book.id)} />
+                </li>)
         });
     }
 
@@ -32,9 +36,8 @@ class Recommended extends PureComponent {
         const {books} = this.state;
 
         return (
-            <div className='row'>
-                <h2 className='col-lg-12'>Recommended</h2>
-                {this.renderBooks(books, 3)}
+            <div className={styles[bem()]}>
+                <ul className={styles[bem('list')]}>{this.renderBooks(books, 3)}</ul>
             </div>
         );
     }

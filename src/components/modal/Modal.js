@@ -1,6 +1,9 @@
 import React from 'react';
 import ReactDom from 'react-dom';
-import './modal.scss';
+import styles from './modal.module.scss';
+import {bemNamesFactory} from 'bem-names';
+
+const bem = bemNamesFactory('modal');
 
 const Modal = ({isOpen, onClose, children}) => {
     if (!isOpen) {
@@ -9,9 +12,9 @@ const Modal = ({isOpen, onClose, children}) => {
 
     return (
         ReactDom.createPortal(
-            <div className='modal-overlay'>
-                <button type='button' onClick={() => onClose()}>X</button>
-                <div className='modal-content'>
+            <div className={styles[bem('overlay')]}>
+                <div className={styles[bem('content')]}>
+                    <button type='button' className={styles[bem('button')]} onClick={() => onClose()}>X</button>
                     {children}
                 </div>
             </div>,
