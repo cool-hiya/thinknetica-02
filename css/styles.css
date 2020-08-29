@@ -13,8 +13,9 @@
     font-size: 12px;
     font-weight: bold; }
 
-._2vHBB0J4t0cKpN12BLGehG {
-  display: none; }
+@media (max-width: 768px) {
+  ._2vHBB0J4t0cKpN12BLGehG {
+    display: none; } }
 
 .ua2wjmgtpV4-C4OGyOML8 {
   width: 150px; }
