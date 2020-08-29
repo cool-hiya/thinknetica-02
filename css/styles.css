@@ -89,7 +89,9 @@
     padding-bottom: 10px; }
   .r_gM3tIkrWQZKclb6vswr {
     outline: 0;
-    border: 0; }
+    border: 0;
+    position: absolute;
+    z-index: 100; }
 
 ._2f1eKyA_zZYWsEoRAX1ytT {
   width: 25px;
