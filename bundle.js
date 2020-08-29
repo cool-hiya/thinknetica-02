@@ -5121,7 +5121,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _Sea
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("// extracted by mini-css-extract-plugin\nmodule.exports = {\"search-form__control\":\"V7zqHbXRpY79bzI94-VO6\",\"search-form__button\":\"_3B_9-6jJCQwCxfhQpG04SR\"};\n\n//# sourceURL=webpack:///./components/search-form/search-form.module.scss?");
+eval("// extracted by mini-css-extract-plugin\nmodule.exports = {\"search-form\":\"NWX0-eufkg7_MI0MzV-7n\",\"search-form__control\":\"V7zqHbXRpY79bzI94-VO6\",\"search-form__button\":\"_3B_9-6jJCQwCxfhQpG04SR\"};\n\n//# sourceURL=webpack:///./components/search-form/search-form.module.scss?");
 
 /***/ }),
 
