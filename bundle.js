@@ -4614,7 +4614,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var reac
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=webpack:///./components/book-details/book-details.module.scss?");
+eval("// extracted by mini-css-extract-plugin\nmodule.exports = {\"book-details\":\"_1CDnW1F8Vxz1vUQ1bBmjtQ\"};\n\n//# sourceURL=webpack:///./components/book-details/book-details.module.scss?");
 
 /***/ }),
 
