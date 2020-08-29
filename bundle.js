@@ -5053,27 +5053,14 @@ eval("// extracted by mini-css-extract-plugin\nmodule.exports = {\"popular\":\"_
 
 /***/ }),
 
-/***/ "./components/promo-book-card/PromoBookCard.js":
-/*!*****************************************************!*\
-  !*** ./components/promo-book-card/PromoBookCard.js ***!
-  \*****************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"../node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _book_authors__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../book-authors */ \"./components/book-authors/index.js\");\n\n\nvar PromoBookCard = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.memo(function (_ref) {\n  var book = _ref.book,\n      onDelete = _ref.onDelete;\n  var cover = book.cover,\n      title = book.title,\n      authors = book.authors;\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n    className: \"card\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"img\", {\n    src: cover,\n    className: \"card-img-top\"\n  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n    className: \"card-body\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"h3\", {\n    className: \"card-title\"\n  }, title), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_book_authors__WEBPACK_IMPORTED_MODULE_1__[\"default\"], {\n    authors: authors\n  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"button\", {\n    type: \"button\",\n    onClick: function onClick() {\n      return onDelete();\n    }\n  }, \"X\")));\n});\n/* harmony default export */ __webpack_exports__[\"default\"] = (PromoBookCard);\n\n//# sourceURL=webpack:///./components/promo-book-card/PromoBookCard.js?");
-
-/***/ }),
-
 /***/ "./components/promo-book-card/index.js":
 /*!*********************************************!*\
   !*** ./components/promo-book-card/index.js ***!
   \*********************************************/
 /*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ (function(module, exports) {
 
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _PromoBookCard__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./PromoBookCard */ \"./components/promo-book-card/PromoBookCard.js\");\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (_PromoBookCard__WEBPACK_IMPORTED_MODULE_0__[\"default\"]);\n\n//# sourceURL=webpack:///./components/promo-book-card/index.js?");
+eval("throw new Error(\"Module build failed (from ../node_modules/babel-loader/lib/index.js):\\nError: ENOENT: no such file or directory, open 'C:\\\\Users\\\\Arina\\\\Desktop\\\\thinknetica-02\\\\src\\\\components\\\\promo-book-card\\\\index.js'\");\n\n//# sourceURL=webpack:///./components/promo-book-card/index.js?");
 
 /***/ }),
 
