@@ -171,6 +171,7 @@
 
 :root {
   --text-color: #333333;
+  --text-minor-color: #ffffff;
   --bg-default-color: #ffffff;
   --bg-primary-color: #18AFA2;
   --bg-accent-color: #971C53;
