@@ -80,10 +80,11 @@
     content: '';
     width: 30px;
     height: 30px;
-    display: flex;
-    margin: auto;
+    display: block;
     border: 2px solid var(--bg-default-color);
-    transform: rotate(45deg); }
+    transform: rotate(45deg);
+    border-left: 0;
+    border-bottom: 0; }
   ._2MWV9cgT7eD8ru1CwWERfN {
     display: block; }
 
