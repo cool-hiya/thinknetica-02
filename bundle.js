@@ -4612,9 +4612,9 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var reac
   !*** ./components/book-details/book-details.module.scss ***!
   \**********************************************************/
 /*! no static exports found */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
-eval("throw new Error(\"Module build failed (from ../node_modules/mini-css-extract-plugin/dist/loader.js):\\nModuleBuildError: Module build failed (from ../node_modules/sass-loader/dist/cjs.js):\\nSassError: no mixin named control\\n        on line 21 of C:\\\\Users\\\\Arina\\\\Desktop\\\\thinknetica-02\\\\src\\\\components\\\\book-details\\\\book-details.module.scss\\n>>         @include control();\\r\\n   -----------------^\\n\\n    at C:\\\\Users\\\\Arina\\\\Desktop\\\\thinknetica-02\\\\node_modules\\\\webpack\\\\lib\\\\NormalModule.js:316:20\\n    at C:\\\\Users\\\\Arina\\\\Desktop\\\\thinknetica-02\\\\node_modules\\\\loader-runner\\\\lib\\\\LoaderRunner.js:367:11\\n    at C:\\\\Users\\\\Arina\\\\Desktop\\\\thinknetica-02\\\\node_modules\\\\loader-runner\\\\lib\\\\LoaderRunner.js:233:18\\n    at context.callback (C:\\\\Users\\\\Arina\\\\Desktop\\\\thinknetica-02\\\\node_modules\\\\loader-runner\\\\lib\\\\LoaderRunner.js:111:13)\\n    at Object.callback (C:\\\\Users\\\\Arina\\\\Desktop\\\\thinknetica-02\\\\node_modules\\\\sass-loader\\\\dist\\\\index.js:73:7)\\n    at Object.done [as callback] (C:\\\\Users\\\\Arina\\\\Desktop\\\\thinknetica-02\\\\node_modules\\\\neo-async\\\\async.js:8069:18)\\n    at options.error (C:\\\\Users\\\\Arina\\\\Desktop\\\\thinknetica-02\\\\node_modules\\\\node-sass\\\\lib\\\\index.js:294:32)\");\n\n//# sourceURL=webpack:///./components/book-details/book-details.module.scss?");
+eval("// extracted by mini-css-extract-plugin\nmodule.exports = {\"book-details\":\"_1CDnW1F8Vxz1vUQ1bBmjtQ\",\"book-details__content\":\"UQ-Ds7-rfQeNRWQKh6NvB\",\"book-details__img\":\"_2_x28I6iUQBaNzTjaUBTqs\",\"book-details__recommended\":\"mH3oAxa0H4srHcu5y8R7A\",\"book-details__price-input\":\"_3AoIYUMB_jRZUyjbxWND1t\"};\n\n//# sourceURL=webpack:///./components/book-details/book-details.module.scss?");
 
 /***/ }),
 
