@@ -97,7 +97,8 @@
     border-radius: 50%;
     width: 25px;
     height: 25px;
-    color: var(--bg-default-color); }
+    color: var(--bg-default-color);
+    color: var(--bg-primary-color); }
 
 ._2f1eKyA_zZYWsEoRAX1ytT {
   width: 25px;
