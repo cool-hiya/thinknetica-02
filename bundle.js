@@ -4614,7 +4614,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var reac
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("// extracted by mini-css-extract-plugin\nmodule.exports = {\"book-details\":\"_1CDnW1F8Vxz1vUQ1bBmjtQ\",\"book-details__content\":\"UQ-Ds7-rfQeNRWQKh6NvB\",\"book-details__img\":\"_2_x28I6iUQBaNzTjaUBTqs\",\"book-details__recommended\":\"mH3oAxa0H4srHcu5y8R7A\",\"book-details__price-input\":\"_3AoIYUMB_jRZUyjbxWND1t\"};\n\n//# sourceURL=webpack:///./components/book-details/book-details.module.scss?");
+eval("// extracted by mini-css-extract-plugin\nmodule.exports = {\"book-details\":\"_1CDnW1F8Vxz1vUQ1bBmjtQ\",\"book-details__content\":\"UQ-Ds7-rfQeNRWQKh6NvB\",\"book-details__info\":\"DgRR93OmcybYE7nq9EHw4\",\"book-details__img\":\"_2_x28I6iUQBaNzTjaUBTqs\",\"book-details__recommended\":\"mH3oAxa0H4srHcu5y8R7A\",\"book-details__price-input\":\"_3AoIYUMB_jRZUyjbxWND1t\"};\n\n//# sourceURL=webpack:///./components/book-details/book-details.module.scss?");
 
 /***/ }),
 
