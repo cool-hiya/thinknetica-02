@@ -6,7 +6,7 @@
     position: sticky;
     top: 0;
     box-shadow: 0 0 3px 0px var(--shadow-default-color);
-    z-index: 4;
+    z-index: 1000;
 
     &__container {
         @include centerer();

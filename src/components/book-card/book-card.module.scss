@@ -1,7 +1,8 @@
+@import "@styles/mixins.scss";
+
 .book-card {
     height: 100%;
     position: relative;
-    overflow: hidden;
     cursor: pointer;
 
     &:hover {
@@ -17,6 +18,8 @@
     &__title {
         margin: 0 0 20px;
         font-weight: normal;
+        display: flex;
+        justify-content: space-between;
     }
 
     &__content {
@@ -38,5 +41,21 @@
         width: 100%;
         transition: opacity 1s;
         opacity: 1;
+    }
+
+    &__list {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px 0;
+        margin-top: 30px;
+    }
+
+    &__list-item {
+        box-shadow: 0 1px 0 0 var(--shadow-default-color);
+        padding-bottom: 10px;
+    }
+
+    &__close {
+        @include close;
     }
 }

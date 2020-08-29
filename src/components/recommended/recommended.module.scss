@@ -1,0 +1,10 @@
+@import "@styles/mixins.scss";
+
+.recommended {
+    &__list {
+        @include reset-list();
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 20px;
+    }
+}
