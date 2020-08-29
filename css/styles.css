@@ -355,5 +355,6 @@ body {
   font-size: 16px;
   color: var(--text-color);
   font-family: Helvetica, sans-serif;
-  background-color: var(--bg-primary-color); }
+  background-color: var(--bg-primary-color);
+  min-width: 500px; }
 
