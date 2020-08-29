@@ -202,7 +202,8 @@
   padding: 0;
   list-style-type: none;
   display: grid;
-  grid-template-columns: repeat(4, 1fr); }
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px; }
 
 ._2HOQQ9J1n3tzZ14VLKnnjj {
   display: grid;
